@@ -65,7 +65,8 @@ def dolasim_degisim(hisse):
         es = esik(ay)
         donem = [k for k in kayitlar if k[0] >= es]
         if len(donem) >= 2 and donem[0][1] is not None:
-            sonuc[dad] = round(donem[-1][1] - donem[0][1], 2)
+            sonuc[dad] = {"fark": round(donem[-1][1] - donem[0][1], 2),
+                          "ilk": donem[0][1], "son": donem[-1][1]}
         else:
             sonuc[dad] = None
     return sonuc
