@@ -78,6 +78,25 @@ for h in veri:
 surekli.sort(key=lambda x: -x["fark"])
 sonuc["surekli_artiran"] = surekli[:100]
 
+# YENI GIREN ORTAK (donem secmeli): ilk kez gorunen + guncel %5+ pay
+def d8_to_str(d):
+    return d[6:8]+"/"+d[4:6]+"/"+d[0:4]  # YYYYMMDD -> GG/AA/YYYY
+YG_DONEM = {"1ay":1, "2ay":2, "3ay":3, "6ay":6}
+for dad, ay in YG_DONEM.items():
+    es = esik(ay)
+    yg = []
+    for h in veri:
+        for y, kayitlar in veri[h].items():
+            ilk_d8 = kayitlar[0][0]
+            guncel = kayitlar[-1][1]
+            # ilk kaydi bu donem icindeyse = yeni giris
+            if ilk_d8 >= es and guncel is not None and guncel >= 5:
+                yg.append({"hisse": h, "ortak": y,
+                           "giris_orani": kayitlar[0][1], "guncel": guncel,
+                           "tarih": d8_to_str(ilk_d8)})
+    yg.sort(key=lambda x: -x["guncel"])
+    sonuc[f"yeni_giren_{dad}"] = yg[:100]
+
 # Fiili dolasim
 fii = {}
 for r in con.execute("SELECT hisse, tarih, oran FROM fiili_dolasim WHERE oran IS NOT NULL"):
