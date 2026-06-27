@@ -7,15 +7,14 @@ DB = "/root/kap_bot/radar.db"
 OUT = "/root/radae/tarama.json"
 
 def d8(t):
-    if not t or len(t) < 10:
-        return "00000000"
+    if not t or len(t) < 10: return "00000000"
     return t[6:10] + t[3:5] + t[0:2]
 
 bugun = datetime.now()
 def esik(ay):
     return (bugun - timedelta(days=ay*30)).strftime("%Y%m%d")
 
-DONEMLER = {"1ay": 1, "3ay": 3, "6ay": 6, "9ay": 9, "12ay": 12}
+DONEMLER = {"2hafta": 0.5, "1ay": 1, "2ay": 2, "3ay": 3, "4ay": 4, "5ay": 5, "6ay": 6}
 
 con = sqlite3.connect(DB)
 con.row_factory = sqlite3.Row
@@ -59,16 +58,36 @@ for h in veri:
 surekli.sort(key=lambda x: -x["fark"])
 sonuc["surekli_artiran"] = surekli[:100]
 
-az_dolasim = []; fii = {}
+# Fiili dolasim verisi (oran) - tum hisseler
+fii = {}
 for r in con.execute("SELECT hisse, tarih, oran FROM fiili_dolasim WHERE oran IS NOT NULL"):
     fii.setdefault(r["hisse"], []).append((d8(r["tarih"]), r["oran"]))
+for h in fii:
+    fii[h].sort()
+
+# Az dolasimli (guncel oran dusuk)
+az_dolasim = []
 for h, kayitlar in fii.items():
-    kayitlar.sort()
     guncel = kayitlar[-1][1]
     if guncel is not None and guncel <= 30:
         az_dolasim.append({"hisse": h, "dolasim": guncel})
 az_dolasim.sort(key=lambda x: x["dolasim"])
 sonuc["az_dolasimli"] = az_dolasim[:150]
+
+# YENI: Dolasimi daralan (donem secmeli) - fiili dolasim orani dusuyor = toplama
+for dad, ay in DONEMLER.items():
+    es = esik(ay)
+    daralan = []
+    for h, kayitlar in fii.items():
+        donem = [k for k in kayitlar if k[0] >= es]
+        if len(donem) < 2: continue
+        ilk = donem[0][1]; son = donem[-1][1]
+        if ilk is None or son is None: continue
+        fark = round(son - ilk, 2)
+        if fark <= -0.5:  # dolasim daralmis
+            daralan.append({"hisse": h, "ilk": ilk, "son": son, "fark": fark})
+    daralan.sort(key=lambda x: x["fark"])
+    sonuc[f"daralan_{dad}"] = daralan[:100]
 
 con.close()
 data = {
