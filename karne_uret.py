@@ -1,11 +1,16 @@
 #!/usr/bin/env python3
 # -*- coding: utf-8 -*-
 import sqlite3, json, os, urllib.request, csv, io
-from datetime import datetime
+from datetime import datetime, timedelta
 
 DB = "/root/kap_bot/radar.db"
 OUT = "/root/radae/karne.json"
 SHEET_URL = "https://docs.google.com/spreadsheets/d/1_PC-k1mRVsBx1JRey7VpHQX0MtGXpgKorG0GXsULqmE/gviz/tq?tqx=out:csv&gid=1580091346"
+
+bugun = datetime.now()
+DOLASIM_DONEM = {"2hafta": 0.5, "1ay": 1, "2ay": 2, "3ay": 3, "6ay": 6}
+def esik(ay):
+    return (bugun - timedelta(days=int(ay*30))).strftime("%Y%m%d")
 
 def d8(t):
     if not t or len(t) < 10: return "00000000"
@@ -43,6 +48,27 @@ except Exception as e:
 con = sqlite3.connect(DB)
 con.row_factory = sqlite3.Row
 hisseler = [r[0] for r in con.execute("SELECT DISTINCT hisse FROM ortaklik ORDER BY hisse").fetchall()]
+
+# Fiili dolasim verisini hafizaya al (donem degisimi icin)
+fii_all = {}
+for r in con.execute("SELECT hisse, tarih, oran FROM fiili_dolasim WHERE oran IS NOT NULL"):
+    fii_all.setdefault(r["hisse"], []).append((d8(r["tarih"]), r["oran"]))
+for h in fii_all:
+    fii_all[h].sort()
+
+def dolasim_degisim(hisse):
+    kayitlar = fii_all.get(hisse)
+    if not kayitlar: return None
+    guncel = kayitlar[-1][1]
+    sonuc = {"guncel": guncel}
+    for dad, ay in DOLASIM_DONEM.items():
+        es = esik(ay)
+        donem = [k for k in kayitlar if k[0] >= es]
+        if len(donem) >= 2 and donem[0][1] is not None:
+            sonuc[dad] = round(donem[-1][1] - donem[0][1], 2)
+        else:
+            sonuc[dad] = None
+    return sonuc
 
 karne = {}
 for hisse in hisseler:
@@ -95,7 +121,8 @@ for hisse in hisseler:
 
     karne[hisse] = {"son_tarih": son_tarih, "ortaklik": guncel_ortaklik,
                     "hareketler": zaman[:12], "fiili": fiili,
-                    "fiyat": fiyat_map.get(hisse)}
+                    "fiyat": fiyat_map.get(hisse),
+                    "dolasim_trend": dolasim_degisim(hisse)}
 con.close()
 
 data = {"guncelleme": datetime.now().strftime("%Y-%m-%d %H:%M"),
