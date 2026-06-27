@@ -1,7 +1,7 @@
 #!/usr/bin/env python3
 # -*- coding: utf-8 -*-
 import sqlite3, json, os
-from datetime import datetime, timedelta
+from datetime import datetime
 
 DB = "/root/kap_bot/radar.db"
 OUT = "/root/radae/karne.json"
@@ -9,10 +9,6 @@ OUT = "/root/radae/karne.json"
 def d8(t):
     if not t or len(t) < 10: return "00000000"
     return t[6:10] + t[3:5] + t[0:2]
-
-def tarih_obj(dd):
-    try: return datetime.strptime(dd, "%Y%m%d")
-    except: return None
 
 con = sqlite3.connect(DB)
 con.row_factory = sqlite3.Row
@@ -23,32 +19,22 @@ for hisse in hisseler:
     ort_rows = con.execute("SELECT tarih, yatirimci, oran, oy_orani FROM ortaklik WHERE hisse=?", (hisse,)).fetchall()
     if not ort_rows: continue
 
-    yat_son = {}; yat_tum = {}
-    for r in ort_rows:
-        if r["oran"] is None: continue
-        dd = d8(r["tarih"]); y = r["yatirimci"]
-        if y not in yat_son or dd > yat_son[y][0]:
-            yat_son[y] = (dd, r["tarih"], r["oran"], r["oy_orani"])
-        if y != "DİĞER":
-            yat_tum.setdefault(y, []).append((dd, r["tarih"], r["oran"]))
-
-    # Genel en yeni tarih
-    genel_son_d8 = max(yat_son.values(), key=lambda x: x[0])[0]
-    genel_son_obj = tarih_obj(genel_son_d8)
-    # 90 gun esik
-    esik_obj = genel_son_obj - timedelta(days=90) if genel_son_obj else None
-    son_tarih = max(yat_son.values(), key=lambda x: x[0])[1]
-
-    # Guncel ortaklik: sadece son 90 gun icinde teyit edilmis ortaklar
-    guncel_ortaklik = []
-    for y, (dd, ham, oran, oy) in yat_son.items():
-        ob = tarih_obj(dd)
-        if esik_obj and ob and ob < esik_obj:
-            continue  # cok eski kayit -> artik ortak degil, atla
-        guncel_ortaklik.append({"yatirimci": y, "oran": oran, "oy": oy, "tarih": ham})
+    # EN SON TARIHTEKI SNAPSHOT (KAP neyi gosteriyorsa o)
+    son_d8 = max(d8(r["tarih"]) for r in ort_rows)
+    son_tarih = next(r["tarih"] for r in ort_rows if d8(r["tarih"]) == son_d8)
+    guncel_ortaklik = [
+        {"yatirimci": r["yatirimci"], "oran": r["oran"], "oy": r["oy_orani"]}
+        for r in ort_rows if d8(r["tarih"]) == son_d8 and r["oran"] is not None]
     guncel_ortaklik.sort(key=lambda x: -(x["oran"] or 0))
 
+    # Hareketler: tam zaman cizelgesi (son 12 ay) - cikan ortaklari da gosterir
+    yat_tum = {}
+    for r in ort_rows:
+        if r["yatirimci"] == "DİĞER" or r["oran"] is None: continue
+        yat_tum.setdefault(r["yatirimci"], []).append((d8(r["tarih"]), r["tarih"], r["oran"]))
     zaman = []
+    # son snapshot'taki ortaklar (hala iceride mi kontrolu icin)
+    iceride = set(o["yatirimci"] for o in guncel_ortaklik)
     for y, kayitlar in yat_tum.items():
         kayitlar.sort()
         son12 = [k for k in kayitlar if k[0] >= "20250601"]
@@ -61,7 +47,8 @@ for hisse in hisseler:
         toplam = round(son12[-1][2] - son12[0][2], 2)
         if abs(toplam) >= 0.5 or len(adimlar) >= 2:
             zaman.append({"yatirimci": y, "ilk": son12[0][2], "son": son12[-1][2],
-                          "toplam": toplam, "adim_sayi": len(adimlar), "adimlar": adimlar})
+                          "toplam": toplam, "adim_sayi": len(adimlar),
+                          "iceride": y in iceride, "adimlar": adimlar})
     zaman.sort(key=lambda x: -abs(x["toplam"]))
 
     fii_rows = con.execute("SELECT tarih, oran, nominal FROM fiili_dolasim WHERE hisse=?", (hisse,)).fetchall()
