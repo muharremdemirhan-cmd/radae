@@ -32,7 +32,13 @@ try:
         if not r or not r[0]: continue
         kod = r[0].replace("IST:","").strip()
         g = lambda i: r[i] if i < len(r) else ""
-        fiyat_map[kod] = {"d1ay": yuzde(g(5)), "d3ay": yuzde(g(7)), "d6ay": yuzde(g(10)), "d12ay": yuzde(g(16))}
+        def hsayi(s):
+            if not s: return None
+            s=s.strip().replace(".","").replace(",",".")
+            try: return float(s)
+            except: return None
+        fiyat_map[kod] = {"d1ay": yuzde(g(5)), "d3ay": yuzde(g(7)), "d6ay": yuzde(g(10)), "d12ay": yuzde(g(16)),
+                          "hac7": hsayi(g(19)), "hac30": hsayi(g(20))}
     print(f"Fiyat: {len(fiyat_map)} hisse")
 except Exception as e:
     print(f"UYARI fiyat: {e}")
@@ -163,6 +169,10 @@ for h in fii:
 
     fy = fiyat_map.get(h, {})
     f1 = fy.get("d1ay"); f3 = fy.get("d3ay"); f6 = fy.get("d6ay"); f12 = fy.get("d12ay")
+    hac7 = fy.get("hac7"); hac30 = fy.get("hac30")
+    # Hacim canlaniyor mu: 7 gun ort > 30 gun ort
+    hacim_canli = (hac7 is not None and hac30 is not None and hac30 > 0 and hac7 > hac30)
+    hacim_oran = round(hac7/hac30, 2) if (hac7 and hac30 and hac30>0) else None
     # Fiyat 6 ayda yatay olmali: -50 ile +50 arasi
     if f6 is None: continue
     if f6 < -50 or f6 > 50: continue
@@ -182,9 +192,11 @@ for h in fii:
         "hisse": h, "dolasim_3ay": dol3, "dolasim_6ay": dol6,
         "ortak": ortak_isim, "tip": " + ".join(tip),
         "fiyat_1ay": f1, "fiyat_3ay": f3, "fiyat_6ay": f6, "fiyat_12ay": f12,
-        "skor": skor, "dolasim_guncel": fii[h][-1][1]
+        "skor": skor, "dolasim_guncel": fii[h][-1][1],
+        "hacim_canli": hacim_canli, "hacim_oran": hacim_oran
     })
-birlesik.sort(key=lambda x: -x["skor"])
+# Hacim canli olanlar uste, sonra dolasim skoruna gore
+birlesik.sort(key=lambda x: (not x.get("hacim_canli", False), -x["skor"]))
 sonuc["birlesik"] = birlesik[:80]
 
 con.close()
