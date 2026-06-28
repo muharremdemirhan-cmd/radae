@@ -136,42 +136,55 @@ for dad, ay in DONEMLER.items():
 # Fon verisi fon bazli oldugu icin burada "fon giriyor" sinyalini hisse bazli kuramayiz.
 # Onun yerine birlesik sinyalde ortak+dolasim+fiyat kullanacagiz.
 
-# === BIRLESIK SINYAL: sessiz toplama ===
-# Kriter: son 3 ayda dolasim daraliyor + ayni donemde ortak pay artiriyor
-#         + fiyat henuz cok kosmamis
+# === BIRLESIK SINYAL: sessiz toplama (yeni mantik) ===
+# 1) Dolasim 3ay VEYA 6ayda daraliyor
+# 2) VE (3ayda yeni giren ortak) VEYA (6ayda surekli artiran)
+# 3) VE fiyat 6 ayda yatay (-50 ile +50 arasi)
+
+# Yeni giren setini hazirla (3 ay)
+yeni3 = {}  # hisse -> ortak listesi
+for x in sonuc.get("yeni_giren_3ay", []):
+    yeni3.setdefault(x["hisse"], []).append(x["ortak"])
+# Surekli artiran setini hazirla (6 ayda surekli - mevcut surekli_artiran 12 ay baz)
+surekli_set = {}
+for x in sonuc.get("surekli_artiran", []):
+    surekli_set.setdefault(x["hisse"], []).append(x["ortak"])
+
 birlesik = []
 for h in fii:
     dol3 = dolasim_fark(h, 3)
-    dol1 = dolasim_fark(h, 1)
-    if dol3 is None or dol3 > -1: continue  # dolasim en az 1 puan daralmali (3 ay)
-    # ortak pay artirmis mi (son 3 ay)
-    es3 = esik(3)
-    artiran_ortak = None; max_artis = 0
-    for y, kayitlar in veri.get(h, {}).items():
-        dk = [k for k in kayitlar if k[0] >= es3]
-        if len(dk) < 2: continue
-        a = dk[-1][1] - dk[0][1]
-        if a > max_artis:
-            max_artis = a; artiran_ortak = y
-    if max_artis < 1: continue  # en az bir ortak 1+ puan artirmali
+    dol6 = dolasim_fark(h, 6)
+    daraliyor = (dol3 is not None and dol3 <= -1) or (dol6 is not None and dol6 <= -1)
+    if not daraliyor: continue
+
+    yeni_ortak = yeni3.get(h, [])
+    surekli_ortak = surekli_set.get(h, [])
+    if not yeni_ortak and not surekli_ortak: continue  # ne yeni ne surekli -> atla
+
     fy = fiyat_map.get(h, {})
     f1 = fy.get("d1ay"); f3 = fy.get("d3ay"); f6 = fy.get("d6ay"); f12 = fy.get("d12ay")
-    # Fiyat 3 ayda +%50 ustu kosanlari ele (zaten kacmis)
-    if f3 is not None and f3 > 30: continue
-    # toplama skoru: dolasim daralmasi + ortak artisi
-    toplama = abs(dol3) + max_artis
-    # sessizlik bonusu: fiyat ne kadar dusukse o kadar iyi
-    fiyat_ceza = f3 if f3 is not None else 0
-    sessizlik = round(toplama - max(fiyat_ceza, 0) * 0.3, 1)
+    # Fiyat 6 ayda yatay olmali: -50 ile +50 arasi
+    if f6 is None: continue
+    if f6 < -50 or f6 > 50: continue
+    # 12 ayda +%100'den fazla artmis = zaten ucmus, ele
+    if f12 is not None and f12 > 100: continue
+    # 3 ayda -%30'dan fazla dusmus = bosaltma/cakiliyor, ele
+    if f3 is not None and f3 < -30: continue
+
+    tip = []
+    if yeni_ortak: tip.append("yeni giren")
+    if surekli_ortak: tip.append("sürekli alan")
+    ortak_isim = (yeni_ortak + surekli_ortak)[0]
+
+    dolasim_deg = dol3 if dol3 is not None else dol6
+    skor = round(abs(dolasim_deg), 1)
     birlesik.append({
-        "hisse": h, "dolasim_3ay": dol3, "dolasim_1ay": dol1,
-        "ortak": artiran_ortak, "ortak_artis": round(max_artis, 2),
+        "hisse": h, "dolasim_3ay": dol3, "dolasim_6ay": dol6,
+        "ortak": ortak_isim, "tip": " + ".join(tip),
         "fiyat_1ay": f1, "fiyat_3ay": f3, "fiyat_6ay": f6, "fiyat_12ay": f12,
-        "skor": round(toplama, 1), "sessizlik": sessizlik,
-        "dolasim_guncel": fii[h][-1][1]
+        "skor": skor, "dolasim_guncel": fii[h][-1][1]
     })
-# Sessiz toplama one cikar: toplama yuksek + fiyat henuz kosmamis
-birlesik.sort(key=lambda x: -x["sessizlik"])
+birlesik.sort(key=lambda x: -x["skor"])
 sonuc["birlesik"] = birlesik[:80]
 
 con.close()
