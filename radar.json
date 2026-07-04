@@ -1,5 +1,5 @@
 {
-  "guncelleme": "2026-07-03 03:00",
+  "guncelleme": "2026-07-04 02:04",
   "baslik": "Son 12 Ayda Pay Artiran Ortaklar",
   "kayitlar": [
     {
@@ -129,6 +129,13 @@
       "artis": 10.2
     },
     {
+      "hisse": "BORLS",
+      "ortak": "HALİL İBRAHİM EGE",
+      "ilk_oran": 7.21,
+      "son_oran": 17.16,
+      "artis": 9.95
+    },
+    {
       "hisse": "DOFER",
       "ortak": "YAĞMUR DOĞAN",
       "ilk_oran": 15.99,
@@ -181,8 +188,8 @@
       "hisse": "BLUME",
       "ortak": "ERDAL BULUT",
       "ilk_oran": 15.74,
-      "son_oran": 24.18,
-      "artis": 8.44
+      "son_oran": 24.21,
+      "artis": 8.47
     },
     {
       "hisse": "PARSN",
@@ -195,8 +202,8 @@
       "hisse": "DOFER",
       "ortak": "MERT DOĞAN",
       "ilk_oran": 15.47,
-      "son_oran": 23.1,
-      "artis": 7.63
+      "son_oran": 23.05,
+      "artis": 7.58
     },
     {
       "hisse": "BLCYT",
@@ -325,6 +332,13 @@
       "artis": 4.71
     },
     {
+      "hisse": "AHSGY",
+      "ortak": "RE-PIE PORTFÖY SEKİZİNCİ HİSSE SENEDİ SERBEST (TL) FON (HİSSE SENEDİ YOĞUN FON)",
+      "ilk_oran": 4.59,
+      "son_oran": 9.27,
+      "artis": 4.68
+    },
+    {
       "hisse": "TERA, TRA",
       "ortak": "TERA PORTFÖY BİRİNCİ SERBEST FON",
       "ilk_oran": 5.58,
@@ -332,25 +346,11 @@
       "artis": 4.65
     },
     {
-      "hisse": "AHSGY",
-      "ortak": "RE-PIE PORTFÖY SEKİZİNCİ HİSSE SENEDİ SERBEST (TL) FON (HİSSE SENEDİ YOĞUN FON)",
-      "ilk_oran": 4.59,
-      "son_oran": 9.23,
-      "artis": 4.64
-    },
-    {
       "hisse": "KGYO",
       "ortak": "HEDEF PORTFÖY LOTUS SERBEST FON",
       "ilk_oran": 7.4,
       "son_oran": 11.96,
       "artis": 4.56
-    },
-    {
-      "hisse": "ISKPL",
-      "ortak": "ATLAS PORTFÖY SERBEST FON",
-      "ilk_oran": 5.86,
-      "son_oran": 10.11,
-      "artis": 4.25
     }
   ]
 }
