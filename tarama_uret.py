@@ -114,8 +114,18 @@ for h in veri:
 surekli.sort(key=lambda x: -x["fark"])
 sonuc["surekli_artiran"] = surekli[:100]
 
+# Her hissenin gercek en guncel snapshot tarihi (kayitli ortaklardan en yenisi).
+# "Yeni giren" tespitinde bir adayin GERCEKTEN guncel olup olmadigini
+# (yoksa gecmiste bir kez gorunup cikmis mi oldugunu) anlamak icin kullanilir.
+son_snapshot = {}
+for h in veri:
+    tarihler = [kayitlar[-1][0] for kayitlar in veri[h].values() if kayitlar]
+    son_snapshot[h] = max(tarihler) if tarihler else None
+
 # YENI GIREN ORTAK (donem secmeli): ilk kez gorunen + guncel %5+ pay
 # NOT: devir_mi() ile unvan degisikligi/ic transfer olan kayitlar elenir.
+# NOT: son kaydi hissenin genel en guncel snapshot'iyla eslesmeyenler
+#      (yani aslinda cikmis/gecmiste kalmis kisiler) de elenir.
 def d8_to_str(d):
     return d[6:8]+"/"+d[4:6]+"/"+d[0:4]  # YYYYMMDD -> GG/AA/YYYY
 YG_DONEM = {"1ay":1, "2ay":2, "3ay":3, "6ay":6}
@@ -126,10 +136,13 @@ for dad, ay in YG_DONEM.items():
         for y, kayitlar in veri[h].items():
             ilk_d8 = kayitlar[0][0]
             ilk_tl = kayitlar[0][2]
+            son_d8 = kayitlar[-1][0]
             guncel = kayitlar[-1][1]
             # ilk kaydi bu donem icindeyse = yeni giris
             if ilk_d8 >= es and guncel is not None and guncel >= 5:
                 if devir_mi(h, y, ilk_d8, ilk_tl):
+                    continue
+                if son_snapshot.get(h) is not None and son_d8 != son_snapshot[h]:
                     continue
                 yg.append({"hisse": h, "ortak": y,
                            "giris_orani": kayitlar[0][1], "guncel": guncel,
