@@ -23,6 +23,13 @@ def yuzde(s):
     try: return float(s)
     except: return None
 
+def tl_parse(s):
+    if not s: return None
+    try:
+        return float(str(s).replace(".", "").replace(",", "."))
+    except:
+        return None
+
 # --- Fiyat/getiri (Sheets) ---
 fiyat_map = {}
 try:
@@ -46,13 +53,36 @@ except Exception as e:
 con = sqlite3.connect(DB)
 con.row_factory = sqlite3.Row
 
-# Ortaklik verisi
+# Ortaklik verisi (oran + pay_tl birlikte tutuluyor - devir tespiti icin pay_tl lazim)
 veri = {}
-for r in con.execute("SELECT hisse, yatirimci, tarih, oran FROM ortaklik WHERE yatirimci!='DİĞER' AND oran IS NOT NULL"):
-    veri.setdefault(r["hisse"], {}).setdefault(r["yatirimci"], []).append((d8(r["tarih"]), r["oran"]))
+for r in con.execute("SELECT hisse, yatirimci, tarih, oran, pay_tl FROM ortaklik WHERE yatirimci!='DİĞER' AND oran IS NOT NULL"):
+    veri.setdefault(r["hisse"], {}).setdefault(r["yatirimci"], []).append(
+        (d8(r["tarih"]), r["oran"], tl_parse(r["pay_tl"]))
+    )
 for h in veri:
     for y in veri[h]:
         veri[h][y].sort()
+
+# --- DEVIR/UNVAN DEGISIKLIGI TESPITI ---
+# Eger bir "yeni" ortagin ilk goruldugu TL tutari, ayni hissede daha once
+# gorulen baska bir ortagin EN SON TL tutariyla (neredeyse) birebir ayniysa,
+# bu piyasadan gercek bir alim degil; unvan degisikligi / devir / miras gibi
+# bir ic transferdir. Bu yuzden "yeni giren" listesinden cikarilir.
+devir_son = {}  # hisse -> yatirimci -> (son_d8, son_tl)
+for h in veri:
+    devir_son[h] = {}
+    for y, kayitlar in veri[h].items():
+        devir_son[h][y] = (kayitlar[-1][0], kayitlar[-1][2])
+
+def devir_mi(h, yeni_isim, yeni_ilk_d8, yeni_ilk_tl):
+    if yeni_ilk_tl is None:
+        return False
+    for eski_isim, (eski_son_d8, eski_son_tl) in devir_son.get(h, {}).items():
+        if eski_isim == yeni_isim or eski_son_tl is None:
+            continue
+        if eski_son_d8 < yeni_ilk_d8 and abs(eski_son_tl - yeni_ilk_tl) < 1.0:
+            return True
+    return False
 
 sonuc = {}
 for dad, ay in DONEMLER.items():
@@ -85,6 +115,7 @@ surekli.sort(key=lambda x: -x["fark"])
 sonuc["surekli_artiran"] = surekli[:100]
 
 # YENI GIREN ORTAK (donem secmeli): ilk kez gorunen + guncel %5+ pay
+# NOT: devir_mi() ile unvan degisikligi/ic transfer olan kayitlar elenir.
 def d8_to_str(d):
     return d[6:8]+"/"+d[4:6]+"/"+d[0:4]  # YYYYMMDD -> GG/AA/YYYY
 YG_DONEM = {"1ay":1, "2ay":2, "3ay":3, "6ay":6}
@@ -94,9 +125,12 @@ for dad, ay in YG_DONEM.items():
     for h in veri:
         for y, kayitlar in veri[h].items():
             ilk_d8 = kayitlar[0][0]
+            ilk_tl = kayitlar[0][2]
             guncel = kayitlar[-1][1]
             # ilk kaydi bu donem icindeyse = yeni giris
             if ilk_d8 >= es and guncel is not None and guncel >= 5:
+                if devir_mi(h, y, ilk_d8, ilk_tl):
+                    continue
                 yg.append({"hisse": h, "ortak": y,
                            "giris_orani": kayitlar[0][1], "guncel": guncel,
                            "tarih": d8_to_str(ilk_d8)})
