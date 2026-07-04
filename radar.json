@@ -1,5 +1,5 @@
 {
-  "guncelleme": "2026-07-04 03:00",
+  "guncelleme": "2026-07-04 15:43",
   "baslik": "Son 12 Ayda Pay Artiran Ortaklar",
   "kayitlar": [
     {
@@ -31,6 +31,13 @@
       "artis": 22.41
     },
     {
+      "hisse": "ISGSY",
+      "ortak": "İŞ YATIRIM MENKUL DEĞERLER A.Ş.",
+      "ilk_oran": 25.46,
+      "son_oran": 47.05,
+      "artis": 21.59
+    },
+    {
       "hisse": "DUNYH",
       "ortak": "BULLS YATIRIM HOLDİNG ANONİM ŞİRKETİ",
       "ilk_oran": 0.66,
@@ -41,8 +48,8 @@
       "hisse": "OZATD",
       "ortak": "TERA PORTFÖY BİRİNCİ SERBEST FON",
       "ilk_oran": 6.03,
-      "son_oran": 25.13,
-      "artis": 19.1
+      "son_oran": 25.42,
+      "artis": 19.39
     },
     {
       "hisse": "GATEG",
@@ -52,11 +59,18 @@
       "artis": 18.53
     },
     {
+      "hisse": "ISGSY",
+      "ortak": "TÜRKİYE SINAİ KALKINMA BANKASI A.Ş.",
+      "ilk_oran": 14.63,
+      "son_oran": 32.86,
+      "artis": 18.23
+    },
+    {
       "hisse": "TRHOL",
       "ortak": "TERA PORTFÖY BİRİNCİ SERBEST FON",
       "ilk_oran": 5.13,
-      "son_oran": 21.46,
-      "artis": 16.33
+      "son_oran": 22.06,
+      "artis": 16.93
     },
     {
       "hisse": "FENER",
@@ -104,8 +118,15 @@
       "hisse": "KTLEV",
       "ortak": "PUSULA PORTFÖY ÜÇÜNCÜ HİSSE SENEDİ SERBEST FON (HİSSE SENEDİ YOĞUN FON)",
       "ilk_oran": 8.5,
-      "son_oran": 20.86,
-      "artis": 12.36
+      "son_oran": 21.46,
+      "artis": 12.96
+    },
+    {
+      "hisse": "PEKGY",
+      "ortak": "TERA PORTFÖY BİRİNCİ SERBEST FON",
+      "ilk_oran": 10.86,
+      "son_oran": 23.25,
+      "artis": 12.39
     },
     {
       "hisse": "GLYHO",
@@ -120,13 +141,6 @@
       "ilk_oran": 5.52,
       "son_oran": 16.02,
       "artis": 10.5
-    },
-    {
-      "hisse": "PEKGY",
-      "ortak": "TERA PORTFÖY BİRİNCİ SERBEST FON",
-      "ilk_oran": 10.86,
-      "son_oran": 21.06,
-      "artis": 10.2
     },
     {
       "hisse": "BORLS",
@@ -255,18 +269,11 @@
       "artis": 6.73
     },
     {
-      "hisse": "PRZMA",
-      "ortak": "RAŞİT KURU",
-      "ilk_oran": 5.5,
-      "son_oran": 12.15,
-      "artis": 6.65
-    },
-    {
-      "hisse": "ISGSY",
-      "ortak": "İŞ YATIRIM MENKUL DEĞERLER A.Ş.",
-      "ilk_oran": 25.46,
-      "son_oran": 31.96,
-      "artis": 6.5
+      "hisse": "SEGMN",
+      "ortak": "GMS YATIRIM HOLDİNG ANONİM ŞİRKETİ",
+      "ilk_oran": 18.75,
+      "son_oran": 25.0,
+      "artis": 6.25
     },
     {
       "hisse": "NIBAS",
@@ -293,8 +300,15 @@
       "hisse": "KTLEV",
       "ortak": "PUSULA PORTFÖY KUZEY HİSSE SENEDİ SERBEST (TL) FON (HİSSE SENEDİ YOĞUN FON)",
       "ilk_oran": 9.18,
-      "son_oran": 15.17,
-      "artis": 5.99
+      "son_oran": 14.87,
+      "artis": 5.69
+    },
+    {
+      "hisse": "TCELL",
+      "ortak": "CITIBANK N.A.",
+      "ilk_oran": 6.08,
+      "son_oran": 11.53,
+      "artis": 5.45
     },
     {
       "hisse": "GUNDG",
@@ -318,11 +332,11 @@
       "artis": 5.17
     },
     {
-      "hisse": "TCELL",
-      "ortak": "CITIBANK N.A.",
-      "ilk_oran": 6.08,
-      "son_oran": 11.17,
-      "artis": 5.09
+      "hisse": "TERA, TRA",
+      "ortak": "TERA PORTFÖY BİRİNCİ SERBEST FON",
+      "ilk_oran": 5.58,
+      "son_oran": 10.53,
+      "artis": 4.95
     },
     {
       "hisse": "TMPOL",
@@ -337,20 +351,6 @@
       "ilk_oran": 4.59,
       "son_oran": 9.27,
       "artis": 4.68
-    },
-    {
-      "hisse": "TERA, TRA",
-      "ortak": "TERA PORTFÖY BİRİNCİ SERBEST FON",
-      "ilk_oran": 5.58,
-      "son_oran": 10.23,
-      "artis": 4.65
-    },
-    {
-      "hisse": "KGYO",
-      "ortak": "HEDEF PORTFÖY LOTUS SERBEST FON",
-      "ilk_oran": 7.4,
-      "son_oran": 11.96,
-      "artis": 4.56
     }
   ]
 }
