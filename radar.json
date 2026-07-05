@@ -1,5 +1,5 @@
 {
-  "guncelleme": "2026-07-04 15:43",
+  "guncelleme": "2026-07-05 03:00",
   "baslik": "Son 12 Ayda Pay Artiran Ortaklar",
   "kayitlar": [
     {
@@ -143,13 +143,6 @@
       "artis": 10.5
     },
     {
-      "hisse": "BORLS",
-      "ortak": "HALİL İBRAHİM EGE",
-      "ilk_oran": 7.21,
-      "son_oran": 17.16,
-      "artis": 9.95
-    },
-    {
       "hisse": "DOFER",
       "ortak": "YAĞMUR DOĞAN",
       "ilk_oran": 15.99,
@@ -223,8 +216,8 @@
       "hisse": "DOFER",
       "ortak": "MERT DOĞAN",
       "ilk_oran": 15.47,
-      "son_oran": 23.05,
-      "artis": 7.58
+      "son_oran": 23.02,
+      "artis": 7.55
     },
     {
       "hisse": "BLCYT",
@@ -351,6 +344,13 @@
       "ilk_oran": 4.59,
       "son_oran": 9.27,
       "artis": 4.68
+    },
+    {
+      "hisse": "CEMTS",
+      "ortak": "MUHAMMED CÜNEYD BAYRAKTAR",
+      "ilk_oran": 5.0,
+      "son_oran": 9.25,
+      "artis": 4.25
     }
   ]
 }
