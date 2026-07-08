@@ -1,5 +1,5 @@
 {
-  "guncelleme": "2026-07-07 05:30",
+  "guncelleme": "2026-07-08 05:30",
   "baslik": "Son 12 Ayda Pay Artiran Ortaklar",
   "kayitlar": [
     {
@@ -69,8 +69,8 @@
       "hisse": "TRHOL",
       "ortak": "TERA PORTFÖY BİRİNCİ SERBEST FON",
       "ilk_oran": 5.13,
-      "son_oran": 22.06,
-      "artis": 16.93
+      "son_oran": 22.28,
+      "artis": 17.15
     },
     {
       "hisse": "FENER",
@@ -97,8 +97,8 @@
       "hisse": "CRDFA",
       "ortak": "ATLAS PORTFÖY DÖRDÜNCÜ SERBEST (TL) FON",
       "ilk_oran": 5.7,
-      "son_oran": 19.61,
-      "artis": 13.91
+      "son_oran": 19.71,
+      "artis": 14.01
     },
     {
       "hisse": "MANAS",
@@ -115,18 +115,18 @@
       "artis": 13.16
     },
     {
-      "hisse": "KTLEV",
-      "ortak": "PUSULA PORTFÖY ÜÇÜNCÜ HİSSE SENEDİ SERBEST FON (HİSSE SENEDİ YOĞUN FON)",
-      "ilk_oran": 8.5,
-      "son_oran": 21.46,
-      "artis": 12.96
-    },
-    {
       "hisse": "PEKGY",
       "ortak": "TERA PORTFÖY BİRİNCİ SERBEST FON",
       "ilk_oran": 10.86,
-      "son_oran": 23.25,
-      "artis": 12.39
+      "son_oran": 24.02,
+      "artis": 13.16
+    },
+    {
+      "hisse": "KTLEV",
+      "ortak": "PUSULA PORTFÖY ÜÇÜNCÜ HİSSE SENEDİ SERBEST FON (HİSSE SENEDİ YOĞUN FON)",
+      "ilk_oran": 8.5,
+      "son_oran": 21.56,
+      "artis": 13.06
     },
     {
       "hisse": "GLYHO",
@@ -216,8 +216,8 @@
       "hisse": "DOFER",
       "ortak": "MERT DOĞAN",
       "ilk_oran": 15.47,
-      "son_oran": 23.02,
-      "artis": 7.55
+      "son_oran": 23.0,
+      "artis": 7.53
     },
     {
       "hisse": "BLCYT",
@@ -300,8 +300,8 @@
       "hisse": "TCELL",
       "ortak": "CITIBANK N.A.",
       "ilk_oran": 6.08,
-      "son_oran": 11.53,
-      "artis": 5.45
+      "son_oran": 11.58,
+      "artis": 5.5
     },
     {
       "hisse": "GUNDG",
@@ -325,13 +325,6 @@
       "artis": 5.17
     },
     {
-      "hisse": "TERA, TRA",
-      "ortak": "TERA PORTFÖY BİRİNCİ SERBEST FON",
-      "ilk_oran": 5.58,
-      "son_oran": 10.53,
-      "artis": 4.95
-    },
-    {
       "hisse": "TMPOL",
       "ortak": "HEDEF PORTFÖY KUZEY HİSSE SENEDİ SERBEST (TL) FON (HİSSE SENEDİ YOĞUN FON)",
       "ilk_oran": 7.25,
@@ -350,6 +343,13 @@
       "ortak": "MUHAMMED CÜNEYD BAYRAKTAR",
       "ilk_oran": 5.0,
       "son_oran": 9.25,
+      "artis": 4.25
+    },
+    {
+      "hisse": "ISKPL",
+      "ortak": "ATLAS PORTFÖY SERBEST FON",
+      "ilk_oran": 5.86,
+      "son_oran": 10.11,
       "artis": 4.25
     }
   ]
