@@ -1,5 +1,5 @@
 {
-  "guncelleme": "2026-07-10 05:30",
+  "guncelleme": "2026-07-11 05:30",
   "baslik": "Son 12 Ayda Pay Artiran Ortaklar",
   "kayitlar": [
     {
@@ -31,18 +31,18 @@
       "artis": 22.41
     },
     {
+      "hisse": "OZATD",
+      "ortak": "TERA PORTFÖY BİRİNCİ SERBEST FON",
+      "ilk_oran": 6.03,
+      "son_oran": 26.53,
+      "artis": 20.5
+    },
+    {
       "hisse": "DUNYH",
       "ortak": "BULLS YATIRIM HOLDİNG ANONİM ŞİRKETİ",
       "ilk_oran": 0.66,
       "son_oran": 20.45,
       "artis": 19.79
-    },
-    {
-      "hisse": "OZATD",
-      "ortak": "TERA PORTFÖY BİRİNCİ SERBEST FON",
-      "ilk_oran": 6.03,
-      "son_oran": 25.57,
-      "artis": 19.54
     },
     {
       "hisse": "GATEG",
@@ -94,6 +94,13 @@
       "artis": 13.71
     },
     {
+      "hisse": "KTLEV",
+      "ortak": "PUSULA PORTFÖY ÜÇÜNCÜ HİSSE SENEDİ SERBEST FON (HİSSE SENEDİ YOĞUN FON)",
+      "ilk_oran": 8.5,
+      "son_oran": 21.76,
+      "artis": 13.26
+    },
+    {
       "hisse": "EKIZ",
       "ortak": "MURAT TÜRKAL",
       "ilk_oran": 22.69,
@@ -101,18 +108,11 @@
       "artis": 13.16
     },
     {
-      "hisse": "KTLEV",
-      "ortak": "PUSULA PORTFÖY ÜÇÜNCÜ HİSSE SENEDİ SERBEST FON (HİSSE SENEDİ YOĞUN FON)",
-      "ilk_oran": 8.5,
-      "son_oran": 21.66,
-      "artis": 13.16
-    },
-    {
       "hisse": "PEKGY",
       "ortak": "TERA PORTFÖY BİRİNCİ SERBEST FON",
       "ilk_oran": 10.86,
-      "son_oran": 22.68,
-      "artis": 11.82
+      "son_oran": 22.84,
+      "artis": 11.98
     },
     {
       "hisse": "GLYHO",
@@ -202,8 +202,8 @@
       "hisse": "DOFER",
       "ortak": "MERT DOĞAN",
       "ilk_oran": 15.47,
-      "son_oran": 22.98,
-      "artis": 7.51
+      "son_oran": 22.96,
+      "artis": 7.49
     },
     {
       "hisse": "BLCYT",
@@ -339,18 +339,18 @@
       "artis": 4.25
     },
     {
-      "hisse": "ISKPL",
-      "ortak": "ATLAS PORTFÖY SERBEST FON",
-      "ilk_oran": 5.86,
-      "son_oran": 10.11,
-      "artis": 4.25
-    },
-    {
       "hisse": "GLYHO",
       "ortak": "TURKCOM TURİZM ENERJİ İNŞAAT GIDA YATIRIMLARI A.Ş.",
       "ilk_oran": 14.81,
       "son_oran": 18.96,
       "artis": 4.15
+    },
+    {
+      "hisse": "USAK",
+      "ortak": "TANIŞLAR YAPI MALZEMELERİ İNŞAAT PETROL MADEN ÜRÜNLERİ SANAYİ VE TİCARET A.Ş.",
+      "ilk_oran": 18.22,
+      "son_oran": 22.3,
+      "artis": 4.08
     }
   ]
 }
