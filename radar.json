@@ -1,5 +1,5 @@
 {
-  "guncelleme": "2026-07-11 05:30",
+  "guncelleme": "2026-07-12 05:30",
   "baslik": "Son 12 Ayda Pay Artiran Ortaklar",
   "kayitlar": [
     {
@@ -34,8 +34,8 @@
       "hisse": "OZATD",
       "ortak": "TERA PORTFÖY BİRİNCİ SERBEST FON",
       "ilk_oran": 6.03,
-      "son_oran": 26.53,
-      "artis": 20.5
+      "son_oran": 26.52,
+      "artis": 20.49
     },
     {
       "hisse": "DUNYH",
@@ -62,8 +62,8 @@
       "hisse": "TRHOL",
       "ortak": "TERA PORTFÖY BİRİNCİ SERBEST FON",
       "ilk_oran": 5.13,
-      "son_oran": 20.73,
-      "artis": 15.6
+      "son_oran": 20.74,
+      "artis": 15.61
     },
     {
       "hisse": "BAYRK",
@@ -97,8 +97,8 @@
       "hisse": "KTLEV",
       "ortak": "PUSULA PORTFÖY ÜÇÜNCÜ HİSSE SENEDİ SERBEST FON (HİSSE SENEDİ YOĞUN FON)",
       "ilk_oran": 8.5,
-      "son_oran": 21.76,
-      "artis": 13.26
+      "son_oran": 21.9,
+      "artis": 13.4
     },
     {
       "hisse": "EKIZ",
@@ -111,8 +111,8 @@
       "hisse": "PEKGY",
       "ortak": "TERA PORTFÖY BİRİNCİ SERBEST FON",
       "ilk_oran": 10.86,
-      "son_oran": 22.84,
-      "artis": 11.98
+      "son_oran": 23.7,
+      "artis": 12.84
     },
     {
       "hisse": "GLYHO",
@@ -202,8 +202,8 @@
       "hisse": "DOFER",
       "ortak": "MERT DOĞAN",
       "ilk_oran": 15.47,
-      "son_oran": 22.96,
-      "artis": 7.49
+      "son_oran": 22.95,
+      "artis": 7.48
     },
     {
       "hisse": "BLCYT",
@@ -286,8 +286,8 @@
       "hisse": "TCELL",
       "ortak": "CITIBANK N.A.",
       "ilk_oran": 6.08,
-      "son_oran": 11.8,
-      "artis": 5.72
+      "son_oran": 11.85,
+      "artis": 5.77
     },
     {
       "hisse": "KTLEV",
