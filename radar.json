@@ -1,5 +1,5 @@
 {
-  "guncelleme": "2026-07-15 05:30",
+  "guncelleme": "2026-07-16 05:30",
   "baslik": "Son 12 Ayda Pay Artiran Ortaklar",
   "kayitlar": [
     {
@@ -62,8 +62,8 @@
       "hisse": "TRHOL",
       "ortak": "TERA PORTFÖY BİRİNCİ SERBEST FON",
       "ilk_oran": 5.13,
-      "son_oran": 20.76,
-      "artis": 15.63
+      "son_oran": 20.85,
+      "artis": 15.72
     },
     {
       "hisse": "BAYRK",
@@ -97,8 +97,8 @@
       "hisse": "KTLEV",
       "ortak": "PUSULA PORTFÖY ÜÇÜNCÜ HİSSE SENEDİ SERBEST FON (HİSSE SENEDİ YOĞUN FON)",
       "ilk_oran": 8.5,
-      "son_oran": 21.9,
-      "artis": 13.4
+      "son_oran": 21.99,
+      "artis": 13.49
     },
     {
       "hisse": "EKIZ",
@@ -111,8 +111,8 @@
       "hisse": "PEKGY",
       "ortak": "TERA PORTFÖY BİRİNCİ SERBEST FON",
       "ilk_oran": 10.86,
-      "son_oran": 23.82,
-      "artis": 12.96
+      "son_oran": 23.8,
+      "artis": 12.94
     },
     {
       "hisse": "GLYHO",
