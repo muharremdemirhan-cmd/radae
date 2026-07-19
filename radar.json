@@ -1,5 +1,5 @@
 {
-  "guncelleme": "2026-07-18 05:30",
+  "guncelleme": "2026-07-19 05:30",
   "baslik": "Son 12 Ayda Pay Artiran Ortaklar",
   "kayitlar": [
     {
@@ -34,8 +34,8 @@
       "hisse": "OZATD",
       "ortak": "TERA PORTFÖY BİRİNCİ SERBEST FON",
       "ilk_oran": 6.03,
-      "son_oran": 26.55,
-      "artis": 20.52
+      "son_oran": 26.6,
+      "artis": 20.57
     },
     {
       "hisse": "DUNYH",
@@ -104,8 +104,8 @@
       "hisse": "PEKGY",
       "ortak": "TERA PORTFÖY BİRİNCİ SERBEST FON",
       "ilk_oran": 10.86,
-      "son_oran": 24.23,
-      "artis": 13.37
+      "son_oran": 24.2,
+      "artis": 13.34
     },
     {
       "hisse": "EKIZ",
@@ -113,6 +113,13 @@
       "ilk_oran": 22.69,
       "son_oran": 35.85,
       "artis": 13.16
+    },
+    {
+      "hisse": "KOPOL",
+      "ortak": "PARDUS PORTFÖY SANAYİ ŞİRKETLERİ HİSSE SENEDİ SERBEST FON (HİSSE SENEDİ YOĞUN FON)",
+      "ilk_oran": 5.58,
+      "son_oran": 16.82,
+      "artis": 11.24
     },
     {
       "hisse": "GLYHO",
@@ -344,13 +351,6 @@
       "ilk_oran": 14.81,
       "son_oran": 18.96,
       "artis": 4.15
-    },
-    {
-      "hisse": "USAK",
-      "ortak": "TANIŞLAR YAPI MALZEMELERİ İNŞAAT PETROL MADEN ÜRÜNLERİ SANAYİ VE TİCARET A.Ş.",
-      "ilk_oran": 18.22,
-      "son_oran": 22.3,
-      "artis": 4.08
     }
   ]
 }
