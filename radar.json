@@ -1,5 +1,5 @@
 {
-  "guncelleme": "2026-07-21 05:30",
+  "guncelleme": "2026-07-22 05:30",
   "baslik": "Son 12 Ayda Pay Artiran Ortaklar",
   "kayitlar": [
     {
@@ -34,8 +34,8 @@
       "hisse": "OZATD",
       "ortak": "TERA PORTFÖY BİRİNCİ SERBEST FON",
       "ilk_oran": 6.03,
-      "son_oran": 26.6,
-      "artis": 20.57
+      "son_oran": 26.71,
+      "artis": 20.68
     },
     {
       "hisse": "DUNYH",
@@ -52,18 +52,18 @@
       "artis": 18.53
     },
     {
+      "hisse": "TRHOL",
+      "ortak": "TERA PORTFÖY BİRİNCİ SERBEST FON",
+      "ilk_oran": 5.13,
+      "son_oran": 20.95,
+      "artis": 15.82
+    },
+    {
       "hisse": "FENER",
       "ortak": "FENERBAHÇE SPOR KULÜBÜ",
       "ilk_oran": 46.49,
       "son_oran": 62.27,
       "artis": 15.78
-    },
-    {
-      "hisse": "TRHOL",
-      "ortak": "TERA PORTFÖY BİRİNCİ SERBEST FON",
-      "ilk_oran": 5.13,
-      "son_oran": 20.85,
-      "artis": 15.72
     },
     {
       "hisse": "BAYRK",
@@ -76,8 +76,8 @@
       "hisse": "IEYHO",
       "ortak": "ALNUS YATIRIM MENKUL DEĞERLER A.Ş.",
       "ilk_oran": 6.47,
-      "son_oran": 20.79,
-      "artis": 14.32
+      "son_oran": 20.77,
+      "artis": 14.3
     },
     {
       "hisse": "CRDFA",
@@ -104,8 +104,8 @@
       "hisse": "PEKGY",
       "ortak": "TERA PORTFÖY BİRİNCİ SERBEST FON",
       "ilk_oran": 10.86,
-      "son_oran": 24.2,
-      "artis": 13.34
+      "son_oran": 24.19,
+      "artis": 13.33
     },
     {
       "hisse": "EKIZ",
@@ -209,8 +209,8 @@
       "hisse": "DOFER",
       "ortak": "MERT DOĞAN",
       "ilk_oran": 15.47,
-      "son_oran": 22.92,
-      "artis": 7.45
+      "son_oran": 22.89,
+      "artis": 7.42
     },
     {
       "hisse": "BLCYT",
@@ -293,8 +293,8 @@
       "hisse": "TCELL",
       "ortak": "CITIBANK N.A.",
       "ilk_oran": 6.08,
-      "son_oran": 11.85,
-      "artis": 5.77
+      "son_oran": 11.93,
+      "artis": 5.85
     },
     {
       "hisse": "KTLEV",
