@@ -1,5 +1,5 @@
 {
-  "guncelleme": "2026-07-22 05:30",
+  "guncelleme": "2026-07-23 05:30",
   "baslik": "Son 12 Ayda Pay Artiran Ortaklar",
   "kayitlar": [
     {
@@ -34,8 +34,8 @@
       "hisse": "OZATD",
       "ortak": "TERA PORTFÖY BİRİNCİ SERBEST FON",
       "ilk_oran": 6.03,
-      "son_oran": 26.71,
-      "artis": 20.68
+      "son_oran": 26.73,
+      "artis": 20.7
     },
     {
       "hisse": "DUNYH",
@@ -52,18 +52,18 @@
       "artis": 18.53
     },
     {
-      "hisse": "TRHOL",
-      "ortak": "TERA PORTFÖY BİRİNCİ SERBEST FON",
-      "ilk_oran": 5.13,
-      "son_oran": 20.95,
-      "artis": 15.82
-    },
-    {
       "hisse": "FENER",
       "ortak": "FENERBAHÇE SPOR KULÜBÜ",
       "ilk_oran": 46.49,
       "son_oran": 62.27,
       "artis": 15.78
+    },
+    {
+      "hisse": "TRHOL",
+      "ortak": "TERA PORTFÖY BİRİNCİ SERBEST FON",
+      "ilk_oran": 5.13,
+      "son_oran": 20.6,
+      "artis": 15.47
     },
     {
       "hisse": "BAYRK",
@@ -73,18 +73,18 @@
       "artis": 15.05
     },
     {
-      "hisse": "IEYHO",
-      "ortak": "ALNUS YATIRIM MENKUL DEĞERLER A.Ş.",
-      "ilk_oran": 6.47,
-      "son_oran": 20.77,
-      "artis": 14.3
-    },
-    {
       "hisse": "CRDFA",
       "ortak": "ATLAS PORTFÖY DÖRDÜNCÜ SERBEST (TL) FON",
       "ilk_oran": 5.7,
       "son_oran": 19.91,
       "artis": 14.21
+    },
+    {
+      "hisse": "IEYHO",
+      "ortak": "ALNUS YATIRIM MENKUL DEĞERLER A.Ş.",
+      "ilk_oran": 6.47,
+      "son_oran": 20.66,
+      "artis": 14.19
     },
     {
       "hisse": "KTLEV",
@@ -104,8 +104,8 @@
       "hisse": "PEKGY",
       "ortak": "TERA PORTFÖY BİRİNCİ SERBEST FON",
       "ilk_oran": 10.86,
-      "son_oran": 24.19,
-      "artis": 13.33
+      "son_oran": 24.1,
+      "artis": 13.24
     },
     {
       "hisse": "EKIZ",
@@ -209,8 +209,8 @@
       "hisse": "DOFER",
       "ortak": "MERT DOĞAN",
       "ilk_oran": 15.47,
-      "son_oran": 22.89,
-      "artis": 7.42
+      "son_oran": 22.88,
+      "artis": 7.41
     },
     {
       "hisse": "BLCYT",
@@ -293,8 +293,8 @@
       "hisse": "TCELL",
       "ortak": "CITIBANK N.A.",
       "ilk_oran": 6.08,
-      "son_oran": 11.93,
-      "artis": 5.85
+      "son_oran": 11.97,
+      "artis": 5.89
     },
     {
       "hisse": "KTLEV",
@@ -316,6 +316,13 @@
       "ilk_oran": 14.34,
       "son_oran": 19.66,
       "artis": 5.32
+    },
+    {
+      "hisse": "VAKFN",
+      "ortak": "TÜRKİYE VAKIFLAR BANKASI T.A.O.",
+      "ilk_oran": 62.12,
+      "son_oran": 67.36,
+      "artis": 5.24
     },
     {
       "hisse": "IZENR",
@@ -344,13 +351,6 @@
       "ilk_oran": 5.0,
       "son_oran": 9.25,
       "artis": 4.25
-    },
-    {
-      "hisse": "GLYHO",
-      "ortak": "TURKCOM TURİZM ENERJİ İNŞAAT GIDA YATIRIMLARI A.Ş.",
-      "ilk_oran": 14.81,
-      "son_oran": 18.96,
-      "artis": 4.15
     }
   ]
 }
