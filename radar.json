@@ -1,5 +1,5 @@
 {
-  "guncelleme": "2026-07-24 05:30",
+  "guncelleme": "2026-07-25 05:30",
   "baslik": "Son 12 Ayda Pay Artiran Ortaklar",
   "kayitlar": [
     {
@@ -34,8 +34,8 @@
       "hisse": "OZATD",
       "ortak": "TERA PORTFÖY BİRİNCİ SERBEST FON",
       "ilk_oran": 6.03,
-      "son_oran": 27.03,
-      "artis": 21.0
+      "son_oran": 27.08,
+      "artis": 21.05
     },
     {
       "hisse": "DUNYH",
@@ -62,8 +62,8 @@
       "hisse": "TRHOL",
       "ortak": "TERA PORTFÖY BİRİNCİ SERBEST FON",
       "ilk_oran": 5.13,
-      "son_oran": 20.61,
-      "artis": 15.48
+      "son_oran": 20.66,
+      "artis": 15.53
     },
     {
       "hisse": "BAYRK",
@@ -83,15 +83,15 @@
       "hisse": "IEYHO",
       "ortak": "ALNUS YATIRIM MENKUL DEĞERLER A.Ş.",
       "ilk_oran": 6.47,
-      "son_oran": 20.66,
-      "artis": 14.19
+      "son_oran": 20.56,
+      "artis": 14.09
     },
     {
       "hisse": "KTLEV",
       "ortak": "PUSULA PORTFÖY ÜÇÜNCÜ HİSSE SENEDİ SERBEST FON (HİSSE SENEDİ YOĞUN FON)",
       "ilk_oran": 8.5,
-      "son_oran": 22.21,
-      "artis": 13.71
+      "son_oran": 22.55,
+      "artis": 14.05
     },
     {
       "hisse": "MANAS",
@@ -111,8 +111,8 @@
       "hisse": "PEKGY",
       "ortak": "TERA PORTFÖY BİRİNCİ SERBEST FON",
       "ilk_oran": 10.86,
-      "son_oran": 23.85,
-      "artis": 12.99
+      "son_oran": 23.91,
+      "artis": 13.05
     },
     {
       "hisse": "KOPOL",
@@ -209,8 +209,8 @@
       "hisse": "DOFER",
       "ortak": "MERT DOĞAN",
       "ilk_oran": 15.47,
-      "son_oran": 22.86,
-      "artis": 7.39
+      "son_oran": 22.83,
+      "artis": 7.36
     },
     {
       "hisse": "BLCYT",
@@ -318,13 +318,6 @@
       "artis": 5.32
     },
     {
-      "hisse": "VAKFN",
-      "ortak": "TÜRKİYE VAKIFLAR BANKASI T.A.O.",
-      "ilk_oran": 62.12,
-      "son_oran": 67.36,
-      "artis": 5.24
-    },
-    {
       "hisse": "IZENR",
       "ortak": "PARDUS PORTFÖY DOKUZUNCU HİSSE SENEDİ SERBEST (TL) FON (HİSSE SENEDİ YOĞUN FON)",
       "ilk_oran": 5.93,
@@ -342,8 +335,8 @@
       "hisse": "AHSGY",
       "ortak": "RE-PIE PORTFÖY SEKİZİNCİ HİSSE SENEDİ SERBEST (TL) FON (HİSSE SENEDİ YOĞUN FON)",
       "ilk_oran": 4.59,
-      "son_oran": 9.27,
-      "artis": 4.68
+      "son_oran": 9.28,
+      "artis": 4.69
     },
     {
       "hisse": "CEMTS",
@@ -351,6 +344,13 @@
       "ilk_oran": 5.0,
       "son_oran": 9.25,
       "artis": 4.25
+    },
+    {
+      "hisse": "GLYHO",
+      "ortak": "TURKCOM TURİZM ENERJİ İNŞAAT GIDA YATIRIMLARI A.Ş.",
+      "ilk_oran": 14.81,
+      "son_oran": 18.96,
+      "artis": 4.15
     }
   ]
 }
