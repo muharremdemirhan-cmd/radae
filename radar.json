@@ -1,5 +1,5 @@
 {
-  "guncelleme": "2026-07-25 05:30",
+  "guncelleme": "2026-07-26 05:30",
   "baslik": "Son 12 Ayda Pay Artiran Ortaklar",
   "kayitlar": [
     {
@@ -34,8 +34,8 @@
       "hisse": "OZATD",
       "ortak": "TERA PORTFÖY BİRİNCİ SERBEST FON",
       "ilk_oran": 6.03,
-      "son_oran": 27.08,
-      "artis": 21.05
+      "son_oran": 27.1,
+      "artis": 21.07
     },
     {
       "hisse": "DUNYH",
@@ -62,8 +62,8 @@
       "hisse": "TRHOL",
       "ortak": "TERA PORTFÖY BİRİNCİ SERBEST FON",
       "ilk_oran": 5.13,
-      "son_oran": 20.66,
-      "artis": 15.53
+      "son_oran": 20.82,
+      "artis": 15.69
     },
     {
       "hisse": "BAYRK",
@@ -80,18 +80,18 @@
       "artis": 14.21
     },
     {
-      "hisse": "IEYHO",
-      "ortak": "ALNUS YATIRIM MENKUL DEĞERLER A.Ş.",
-      "ilk_oran": 6.47,
-      "son_oran": 20.56,
-      "artis": 14.09
-    },
-    {
       "hisse": "KTLEV",
       "ortak": "PUSULA PORTFÖY ÜÇÜNCÜ HİSSE SENEDİ SERBEST FON (HİSSE SENEDİ YOĞUN FON)",
       "ilk_oran": 8.5,
-      "son_oran": 22.55,
-      "artis": 14.05
+      "son_oran": 22.68,
+      "artis": 14.18
+    },
+    {
+      "hisse": "IEYHO",
+      "ortak": "ALNUS YATIRIM MENKUL DEĞERLER A.Ş.",
+      "ilk_oran": 6.47,
+      "son_oran": 20.32,
+      "artis": 13.85
     },
     {
       "hisse": "MANAS",
@@ -101,18 +101,18 @@
       "artis": 13.71
     },
     {
+      "hisse": "PEKGY",
+      "ortak": "TERA PORTFÖY BİRİNCİ SERBEST FON",
+      "ilk_oran": 10.86,
+      "son_oran": 24.42,
+      "artis": 13.56
+    },
+    {
       "hisse": "EKIZ",
       "ortak": "MURAT TÜRKAL",
       "ilk_oran": 22.69,
       "son_oran": 35.85,
       "artis": 13.16
-    },
-    {
-      "hisse": "PEKGY",
-      "ortak": "TERA PORTFÖY BİRİNCİ SERBEST FON",
-      "ilk_oran": 10.86,
-      "son_oran": 23.91,
-      "artis": 13.05
     },
     {
       "hisse": "KOPOL",
@@ -209,8 +209,8 @@
       "hisse": "DOFER",
       "ortak": "MERT DOĞAN",
       "ilk_oran": 15.47,
-      "son_oran": 22.83,
-      "artis": 7.36
+      "son_oran": 22.81,
+      "artis": 7.34
     },
     {
       "hisse": "BLCYT",
