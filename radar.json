@@ -1,5 +1,5 @@
 {
-  "guncelleme": "2026-07-28 05:30",
+  "guncelleme": "2026-07-29 05:30",
   "baslik": "Son 12 Ayda Pay Artiran Ortaklar",
   "kayitlar": [
     {
@@ -34,8 +34,8 @@
       "hisse": "OZATD",
       "ortak": "TERA PORTFÖY BİRİNCİ SERBEST FON",
       "ilk_oran": 6.03,
-      "son_oran": 27.1,
-      "artis": 21.07
+      "son_oran": 27.15,
+      "artis": 21.12
     },
     {
       "hisse": "DUNYH",
@@ -59,13 +59,6 @@
       "artis": 15.78
     },
     {
-      "hisse": "TRHOL",
-      "ortak": "TERA PORTFÖY BİRİNCİ SERBEST FON",
-      "ilk_oran": 5.13,
-      "son_oran": 20.82,
-      "artis": 15.69
-    },
-    {
       "hisse": "BAYRK",
       "ortak": "KURT TABAN AYAKKABI SANAYİ TİCARET ANONİM ŞİRKETİ",
       "ilk_oran": 9.05,
@@ -73,18 +66,18 @@
       "artis": 15.05
     },
     {
+      "hisse": "KTLEV",
+      "ortak": "PUSULA PORTFÖY ÜÇÜNCÜ HİSSE SENEDİ SERBEST FON (HİSSE SENEDİ YOĞUN FON)",
+      "ilk_oran": 8.5,
+      "son_oran": 22.76,
+      "artis": 14.26
+    },
+    {
       "hisse": "CRDFA",
       "ortak": "ATLAS PORTFÖY DÖRDÜNCÜ SERBEST (TL) FON",
       "ilk_oran": 5.7,
       "son_oran": 19.91,
       "artis": 14.21
-    },
-    {
-      "hisse": "KTLEV",
-      "ortak": "PUSULA PORTFÖY ÜÇÜNCÜ HİSSE SENEDİ SERBEST FON (HİSSE SENEDİ YOĞUN FON)",
-      "ilk_oran": 8.5,
-      "son_oran": 22.68,
-      "artis": 14.18
     },
     {
       "hisse": "IEYHO",
@@ -101,18 +94,18 @@
       "artis": 13.71
     },
     {
-      "hisse": "PEKGY",
-      "ortak": "TERA PORTFÖY BİRİNCİ SERBEST FON",
-      "ilk_oran": 10.86,
-      "son_oran": 24.42,
-      "artis": 13.56
-    },
-    {
       "hisse": "EKIZ",
       "ortak": "MURAT TÜRKAL",
       "ilk_oran": 22.69,
       "son_oran": 35.85,
       "artis": 13.16
+    },
+    {
+      "hisse": "PEKGY",
+      "ortak": "TERA PORTFÖY BİRİNCİ SERBEST FON",
+      "ilk_oran": 10.86,
+      "son_oran": 23.33,
+      "artis": 12.47
     },
     {
       "hisse": "KOPOL",
@@ -127,6 +120,13 @@
       "ilk_oran": 6.41,
       "son_oran": 17.18,
       "artis": 10.77
+    },
+    {
+      "hisse": "TRHOL",
+      "ortak": "TERA PORTFÖY BİRİNCİ SERBEST FON",
+      "ilk_oran": 5.13,
+      "son_oran": 15.74,
+      "artis": 10.61
     },
     {
       "hisse": "IEYHO",
