@@ -1,5 +1,5 @@
 {
-  "guncelleme": "2026-07-30 05:30",
+  "guncelleme": "2026-07-31 05:30",
   "baslik": "Son 12 Ayda Pay Artiran Ortaklar",
   "kayitlar": [
     {
@@ -104,8 +104,8 @@
       "hisse": "PEKGY",
       "ortak": "TERA PORTFÖY BİRİNCİ SERBEST FON",
       "ilk_oran": 10.86,
-      "son_oran": 23.64,
-      "artis": 12.78
+      "son_oran": 23.77,
+      "artis": 12.91
     },
     {
       "hisse": "KOPOL",
@@ -195,8 +195,8 @@
       "hisse": "BLUME",
       "ortak": "ERDAL BULUT",
       "ilk_oran": 15.74,
-      "son_oran": 24.22,
-      "artis": 8.48
+      "son_oran": 24.26,
+      "artis": 8.52
     },
     {
       "hisse": "PARSN",
@@ -206,18 +206,18 @@
       "artis": 7.76
     },
     {
-      "hisse": "DOFER",
-      "ortak": "MERT DOĞAN",
-      "ilk_oran": 15.47,
-      "son_oran": 22.78,
-      "artis": 7.31
-    },
-    {
       "hisse": "BLCYT",
       "ortak": "AZİMUT PORTFÖY ADATEPE SERBEST ÖZEL FON",
       "ilk_oran": 5.89,
       "son_oran": 13.18,
       "artis": 7.29
+    },
+    {
+      "hisse": "DOFER",
+      "ortak": "MERT DOĞAN",
+      "ilk_oran": 15.47,
+      "son_oran": 22.74,
+      "artis": 7.27
     },
     {
       "hisse": "VBTYZ",
@@ -283,18 +283,18 @@
       "artis": 6.16
     },
     {
+      "hisse": "TCELL",
+      "ortak": "CITIBANK N.A.",
+      "ilk_oran": 6.08,
+      "son_oran": 12.2,
+      "artis": 6.12
+    },
+    {
       "hisse": "FZLGY",
       "ortak": "AZİMUT PORTFÖY 10.0 SERBEST FON",
       "ilk_oran": 5.52,
       "son_oran": 11.63,
       "artis": 6.11
-    },
-    {
-      "hisse": "TCELL",
-      "ortak": "CITIBANK N.A.",
-      "ilk_oran": 6.08,
-      "son_oran": 12.12,
-      "artis": 6.04
     },
     {
       "hisse": "KTLEV",
