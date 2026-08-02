@@ -1,5 +1,5 @@
 {
-  "guncelleme": "2026-08-01 05:30",
+  "guncelleme": "2026-08-02 05:30",
   "baslik": "Son 12 Ayda Pay Artiran Ortaklar",
   "kayitlar": [
     {
@@ -66,11 +66,18 @@
       "artis": 15.05
     },
     {
+      "hisse": "PEKGY",
+      "ortak": "TERA PORTFÖY BİRİNCİ SERBEST FON",
+      "ilk_oran": 10.86,
+      "son_oran": 25.9,
+      "artis": 15.04
+    },
+    {
       "hisse": "KTLEV",
       "ortak": "PUSULA PORTFÖY ÜÇÜNCÜ HİSSE SENEDİ SERBEST FON (HİSSE SENEDİ YOĞUN FON)",
       "ilk_oran": 8.5,
-      "son_oran": 23.23,
-      "artis": 14.73
+      "son_oran": 23.26,
+      "artis": 14.76
     },
     {
       "hisse": "CRDFA",
@@ -85,13 +92,6 @@
       "ilk_oran": 6.47,
       "son_oran": 20.32,
       "artis": 13.85
-    },
-    {
-      "hisse": "PEKGY",
-      "ortak": "TERA PORTFÖY BİRİNCİ SERBEST FON",
-      "ilk_oran": 10.86,
-      "son_oran": 24.65,
-      "artis": 13.79
     },
     {
       "hisse": "MANAS",
@@ -118,8 +118,8 @@
       "hisse": "TRHOL",
       "ortak": "TERA PORTFÖY BİRİNCİ SERBEST FON",
       "ilk_oran": 5.13,
-      "son_oran": 15.93,
-      "artis": 10.8
+      "son_oran": 16.02,
+      "artis": 10.89
     },
     {
       "hisse": "GLYHO",
@@ -216,8 +216,8 @@
       "hisse": "DOFER",
       "ortak": "MERT DOĞAN",
       "ilk_oran": 15.47,
-      "son_oran": 22.71,
-      "artis": 7.24
+      "son_oran": 22.68,
+      "artis": 7.21
     },
     {
       "hisse": "VBTYZ",
@@ -258,8 +258,8 @@
       "hisse": "TCELL",
       "ortak": "CITIBANK N.A.",
       "ilk_oran": 6.08,
-      "son_oran": 12.59,
-      "artis": 6.51
+      "son_oran": 12.74,
+      "artis": 6.66
     },
     {
       "hisse": "ISGSY",
@@ -300,8 +300,8 @@
       "hisse": "SEKFK",
       "ortak": "ŞEKERBANK TÜRK ANONİM.ŞİRKET PERS.SOS.SİG.SAN.VAKF",
       "ilk_oran": 7.71,
-      "son_oran": 13.57,
-      "artis": 5.86
+      "son_oran": 13.45,
+      "artis": 5.74
     },
     {
       "hisse": "KTLEV",
