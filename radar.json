@@ -1,5 +1,5 @@
 {
-  "guncelleme": "2026-08-04 05:30",
+  "guncelleme": "2026-08-05 05:30",
   "baslik": "Son 12 Ayda Pay Artiran Ortaklar",
   "kayitlar": [
     {
@@ -17,6 +17,13 @@
       "artis": 38.9
     },
     {
+      "hisse": "KRTEK",
+      "ortak": "MERAL MOLU",
+      "ilk_oran": 8.72,
+      "son_oran": 46.46,
+      "artis": 37.74
+    },
+    {
       "hisse": "TKFEN",
       "ortak": "CAN KÜLTÜR SANAT EĞİTİM KURUMLARI İŞLETMECİLİĞİ ANONİM ŞİRKETİ",
       "ilk_oran": 11.26,
@@ -31,11 +38,18 @@
       "artis": 22.41
     },
     {
+      "hisse": "KTLEV",
+      "ortak": "PUSULA FİNANS HOLDİNG ANONİM ŞİRKETİ",
+      "ilk_oran": 28.42,
+      "son_oran": 50.66,
+      "artis": 22.24
+    },
+    {
       "hisse": "OZATD",
       "ortak": "TERA PORTFÖY BİRİNCİ SERBEST FON",
       "ilk_oran": 6.03,
-      "son_oran": 27.24,
-      "artis": 21.21
+      "son_oran": 27.4,
+      "artis": 21.37
     },
     {
       "hisse": "DUNYH",
@@ -59,6 +73,13 @@
       "artis": 15.78
     },
     {
+      "hisse": "PEKGY",
+      "ortak": "TERA PORTFÖY BİRİNCİ SERBEST FON",
+      "ilk_oran": 10.86,
+      "son_oran": 25.92,
+      "artis": 15.06
+    },
+    {
       "hisse": "BAYRK",
       "ortak": "KURT TABAN AYAKKABI SANAYİ TİCARET ANONİM ŞİRKETİ",
       "ilk_oran": 9.05,
@@ -66,25 +87,11 @@
       "artis": 15.05
     },
     {
-      "hisse": "PEKGY",
-      "ortak": "TERA PORTFÖY BİRİNCİ SERBEST FON",
-      "ilk_oran": 10.86,
-      "son_oran": 25.9,
-      "artis": 15.04
-    },
-    {
-      "hisse": "KTLEV",
-      "ortak": "PUSULA PORTFÖY ÜÇÜNCÜ HİSSE SENEDİ SERBEST FON (HİSSE SENEDİ YOĞUN FON)",
-      "ilk_oran": 8.5,
-      "son_oran": 23.26,
-      "artis": 14.76
-    },
-    {
       "hisse": "CRDFA",
       "ortak": "ATLAS PORTFÖY DÖRDÜNCÜ SERBEST (TL) FON",
       "ilk_oran": 5.7,
-      "son_oran": 19.9,
-      "artis": 14.2
+      "son_oran": 19.88,
+      "artis": 14.18
     },
     {
       "hisse": "IEYHO",
@@ -164,13 +171,6 @@
       "artis": 9.58
     },
     {
-      "hisse": "KRTEK",
-      "ortak": "MERAL MOLU",
-      "ilk_oran": 8.72,
-      "son_oran": 18.15,
-      "artis": 9.43
-    },
-    {
       "hisse": "BURVA",
       "ortak": "BULLS PORTFÖY BANKACILIK SEKTÖRÜ DIŞI ŞİRKETLER HİSSE SENEDİ SERBEST FON (HİSSE SENEDİ YOĞUN FON)",
       "ilk_oran": 5.21,
@@ -206,6 +206,13 @@
       "artis": 7.76
     },
     {
+      "hisse": "KTLEV",
+      "ortak": "ÖMER BURKAY",
+      "ilk_oran": 9.33,
+      "son_oran": 16.62,
+      "artis": 7.29
+    },
+    {
       "hisse": "BLCYT",
       "ortak": "AZİMUT PORTFÖY ADATEPE SERBEST ÖZEL FON",
       "ilk_oran": 5.89,
@@ -216,8 +223,8 @@
       "hisse": "DOFER",
       "ortak": "MERT DOĞAN",
       "ilk_oran": 15.47,
-      "son_oran": 22.68,
-      "artis": 7.21
+      "son_oran": 22.67,
+      "artis": 7.2
     },
     {
       "hisse": "VBTYZ",
@@ -241,6 +248,13 @@
       "artis": 7.03
     },
     {
+      "hisse": "TCELL",
+      "ortak": "CITIBANK N.A.",
+      "ilk_oran": 6.08,
+      "son_oran": 13.09,
+      "artis": 7.01
+    },
+    {
       "hisse": "SKYLP",
       "ortak": "PUSULA PORTFÖY DOĞU HİSSE SENEDİ SERBEST (TL) FON (HİSSE SENEDİ YOĞUN FON)",
       "ilk_oran": 5.01,
@@ -255,13 +269,6 @@
       "artis": 6.73
     },
     {
-      "hisse": "TCELL",
-      "ortak": "CITIBANK N.A.",
-      "ilk_oran": 6.08,
-      "son_oran": 12.74,
-      "artis": 6.66
-    },
-    {
       "hisse": "ISGSY",
       "ortak": "İŞ YATIRIM MENKUL DEĞERLER A.Ş.",
       "ilk_oran": 25.46,
@@ -274,6 +281,13 @@
       "ilk_oran": 18.75,
       "son_oran": 25.0,
       "artis": 6.25
+    },
+    {
+      "hisse": "PASEU",
+      "ortak": "PUSULA PORTFÖY PARA PİYASASI (TL) FONU",
+      "ilk_oran": 5.12,
+      "son_oran": 11.35,
+      "artis": 6.23
     },
     {
       "hisse": "NIBAS",
@@ -300,15 +314,8 @@
       "hisse": "SEKFK",
       "ortak": "ŞEKERBANK TÜRK ANONİM.ŞİRKET PERS.SOS.SİG.SAN.VAKF",
       "ilk_oran": 7.71,
-      "son_oran": 13.45,
-      "artis": 5.74
-    },
-    {
-      "hisse": "KTLEV",
-      "ortak": "PUSULA PORTFÖY KUZEY HİSSE SENEDİ SERBEST (TL) FON (HİSSE SENEDİ YOĞUN FON)",
-      "ilk_oran": 9.18,
-      "son_oran": 14.87,
-      "artis": 5.69
+      "son_oran": 13.25,
+      "artis": 5.54
     },
     {
       "hisse": "GUNDG",
@@ -344,13 +351,6 @@
       "ilk_oran": 7.25,
       "son_oran": 11.96,
       "artis": 4.71
-    },
-    {
-      "hisse": "CEMTS",
-      "ortak": "MUHAMMED CÜNEYD BAYRAKTAR",
-      "ilk_oran": 5.0,
-      "son_oran": 9.25,
-      "artis": 4.25
     }
   ]
 }
