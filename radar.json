@@ -1,5 +1,5 @@
 {
-  "guncelleme": "2026-08-05 05:30",
+  "guncelleme": "2026-08-06 05:30",
   "baslik": "Son 12 Ayda Pay Artiran Ortaklar",
   "kayitlar": [
     {
@@ -48,8 +48,8 @@
       "hisse": "OZATD",
       "ortak": "TERA PORTFÖY BİRİNCİ SERBEST FON",
       "ilk_oran": 6.03,
-      "son_oran": 27.4,
-      "artis": 21.37
+      "son_oran": 27.5,
+      "artis": 21.47
     },
     {
       "hisse": "DUNYH",
@@ -76,8 +76,8 @@
       "hisse": "PEKGY",
       "ortak": "TERA PORTFÖY BİRİNCİ SERBEST FON",
       "ilk_oran": 10.86,
-      "son_oran": 25.92,
-      "artis": 15.06
+      "son_oran": 26.4,
+      "artis": 15.54
     },
     {
       "hisse": "BAYRK",
@@ -94,18 +94,18 @@
       "artis": 14.18
     },
     {
-      "hisse": "IEYHO",
-      "ortak": "ALNUS YATIRIM MENKUL DEĞERLER A.Ş.",
-      "ilk_oran": 6.47,
-      "son_oran": 20.32,
-      "artis": 13.85
-    },
-    {
       "hisse": "MANAS",
       "ortak": "AHMET REŞAT GÖRÜR",
       "ilk_oran": 7.54,
       "son_oran": 21.25,
       "artis": 13.71
+    },
+    {
+      "hisse": "IEYHO",
+      "ortak": "ALNUS YATIRIM MENKUL DEĞERLER A.Ş.",
+      "ilk_oran": 6.47,
+      "son_oran": 19.67,
+      "artis": 13.2
     },
     {
       "hisse": "EKIZ",
@@ -195,8 +195,8 @@
       "hisse": "BLUME",
       "ortak": "ERDAL BULUT",
       "ilk_oran": 15.74,
-      "son_oran": 24.26,
-      "artis": 8.52
+      "son_oran": 24.32,
+      "artis": 8.58
     },
     {
       "hisse": "PARSN",
@@ -220,11 +220,18 @@
       "artis": 7.29
     },
     {
+      "hisse": "TCELL",
+      "ortak": "CITIBANK N.A.",
+      "ilk_oran": 6.08,
+      "son_oran": 13.26,
+      "artis": 7.18
+    },
+    {
       "hisse": "DOFER",
       "ortak": "MERT DOĞAN",
       "ilk_oran": 15.47,
-      "son_oran": 22.67,
-      "artis": 7.2
+      "son_oran": 22.64,
+      "artis": 7.17
     },
     {
       "hisse": "VBTYZ",
@@ -246,13 +253,6 @@
       "ilk_oran": 8.69,
       "son_oran": 15.72,
       "artis": 7.03
-    },
-    {
-      "hisse": "TCELL",
-      "ortak": "CITIBANK N.A.",
-      "ilk_oran": 6.08,
-      "son_oran": 13.09,
-      "artis": 7.01
     },
     {
       "hisse": "SKYLP",
@@ -283,13 +283,6 @@
       "artis": 6.25
     },
     {
-      "hisse": "PASEU",
-      "ortak": "PUSULA PORTFÖY PARA PİYASASI (TL) FONU",
-      "ilk_oran": 5.12,
-      "son_oran": 11.35,
-      "artis": 6.23
-    },
-    {
       "hisse": "NIBAS",
       "ortak": "ÇEMAŞ DÖKÜM SANAYİ ANONİM ŞİRKETİ",
       "ilk_oran": 6.44,
@@ -311,11 +304,11 @@
       "artis": 6.11
     },
     {
-      "hisse": "SEKFK",
-      "ortak": "ŞEKERBANK TÜRK ANONİM.ŞİRKET PERS.SOS.SİG.SAN.VAKF",
-      "ilk_oran": 7.71,
-      "son_oran": 13.25,
-      "artis": 5.54
+      "hisse": "PASEU",
+      "ortak": "PUSULA PORTFÖY PARA PİYASASI (TL) FONU",
+      "ilk_oran": 5.12,
+      "son_oran": 10.99,
+      "artis": 5.87
     },
     {
       "hisse": "GUNDG",
@@ -339,11 +332,18 @@
       "artis": 5.17
     },
     {
+      "hisse": "SEKFK",
+      "ortak": "ŞEKERBANK TÜRK ANONİM.ŞİRKET PERS.SOS.SİG.SAN.VAKF",
+      "ilk_oran": 7.71,
+      "son_oran": 12.8,
+      "artis": 5.09
+    },
+    {
       "hisse": "AHSGY",
       "ortak": "RE-PIE PORTFÖY SEKİZİNCİ HİSSE SENEDİ SERBEST (TL) FON (HİSSE SENEDİ YOĞUN FON)",
       "ilk_oran": 4.59,
-      "son_oran": 9.3,
-      "artis": 4.71
+      "son_oran": 9.32,
+      "artis": 4.73
     },
     {
       "hisse": "TMPOL",
