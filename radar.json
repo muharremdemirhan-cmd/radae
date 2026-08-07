@@ -1,5 +1,5 @@
 {
-  "guncelleme": "2026-08-06 05:30",
+  "guncelleme": "2026-08-07 05:30",
   "baslik": "Son 12 Ayda Pay Artiran Ortaklar",
   "kayitlar": [
     {
@@ -17,18 +17,18 @@
       "artis": 38.9
     },
     {
-      "hisse": "KRTEK",
-      "ortak": "MERAL MOLU",
-      "ilk_oran": 8.72,
-      "son_oran": 46.46,
-      "artis": 37.74
-    },
-    {
       "hisse": "TKFEN",
       "ortak": "CAN KÜLTÜR SANAT EĞİTİM KURUMLARI İŞLETMECİLİĞİ ANONİM ŞİRKETİ",
       "ilk_oran": 11.26,
       "son_oran": 42.8,
       "artis": 31.54
+    },
+    {
+      "hisse": "KRTEK",
+      "ortak": "MERAL MOLU",
+      "ilk_oran": 8.72,
+      "son_oran": 36.33,
+      "artis": 27.61
     },
     {
       "hisse": "MEYSU",
@@ -38,18 +38,11 @@
       "artis": 22.41
     },
     {
-      "hisse": "KTLEV",
-      "ortak": "PUSULA FİNANS HOLDİNG ANONİM ŞİRKETİ",
-      "ilk_oran": 28.42,
-      "son_oran": 50.66,
-      "artis": 22.24
-    },
-    {
       "hisse": "OZATD",
       "ortak": "TERA PORTFÖY BİRİNCİ SERBEST FON",
       "ilk_oran": 6.03,
-      "son_oran": 27.5,
-      "artis": 21.47
+      "son_oran": 27.53,
+      "artis": 21.5
     },
     {
       "hisse": "DUNYH",
@@ -66,18 +59,18 @@
       "artis": 18.53
     },
     {
+      "hisse": "PEKGY",
+      "ortak": "TERA PORTFÖY BİRİNCİ SERBEST FON",
+      "ilk_oran": 10.86,
+      "son_oran": 26.82,
+      "artis": 15.96
+    },
+    {
       "hisse": "FENER",
       "ortak": "FENERBAHÇE SPOR KULÜBÜ",
       "ilk_oran": 46.49,
       "son_oran": 62.27,
       "artis": 15.78
-    },
-    {
-      "hisse": "PEKGY",
-      "ortak": "TERA PORTFÖY BİRİNCİ SERBEST FON",
-      "ilk_oran": 10.86,
-      "son_oran": 26.4,
-      "artis": 15.54
     },
     {
       "hisse": "BAYRK",
@@ -87,11 +80,18 @@
       "artis": 15.05
     },
     {
+      "hisse": "KTLEV",
+      "ortak": "PUSULA PORTFÖY ÜÇÜNCÜ HİSSE SENEDİ SERBEST FON (HİSSE SENEDİ YOĞUN FON)",
+      "ilk_oran": 8.5,
+      "son_oran": 23.01,
+      "artis": 14.51
+    },
+    {
       "hisse": "CRDFA",
       "ortak": "ATLAS PORTFÖY DÖRDÜNCÜ SERBEST (TL) FON",
       "ilk_oran": 5.7,
-      "son_oran": 19.88,
-      "artis": 14.18
+      "son_oran": 19.79,
+      "artis": 14.09
     },
     {
       "hisse": "MANAS",
@@ -125,8 +125,8 @@
       "hisse": "TRHOL",
       "ortak": "TERA PORTFÖY BİRİNCİ SERBEST FON",
       "ilk_oran": 5.13,
-      "son_oran": 16.02,
-      "artis": 10.89
+      "son_oran": 16.09,
+      "artis": 10.96
     },
     {
       "hisse": "GLYHO",
@@ -206,11 +206,11 @@
       "artis": 7.76
     },
     {
-      "hisse": "KTLEV",
-      "ortak": "ÖMER BURKAY",
-      "ilk_oran": 9.33,
-      "son_oran": 16.62,
-      "artis": 7.29
+      "hisse": "PASEU",
+      "ortak": "PUSULA PORTFÖY PARA PİYASASI (TL) FONU",
+      "ilk_oran": 5.12,
+      "son_oran": 12.48,
+      "artis": 7.36
     },
     {
       "hisse": "BLCYT",
@@ -230,8 +230,8 @@
       "hisse": "DOFER",
       "ortak": "MERT DOĞAN",
       "ilk_oran": 15.47,
-      "son_oran": 22.64,
-      "artis": 7.17
+      "son_oran": 22.61,
+      "artis": 7.14
     },
     {
       "hisse": "VBTYZ",
@@ -304,11 +304,11 @@
       "artis": 6.11
     },
     {
-      "hisse": "PASEU",
-      "ortak": "PUSULA PORTFÖY PARA PİYASASI (TL) FONU",
-      "ilk_oran": 5.12,
-      "son_oran": 10.99,
-      "artis": 5.87
+      "hisse": "KTLEV",
+      "ortak": "PUSULA PORTFÖY KUZEY HİSSE SENEDİ SERBEST (TL) FON (HİSSE SENEDİ YOĞUN FON)",
+      "ilk_oran": 9.18,
+      "son_oran": 14.95,
+      "artis": 5.77
     },
     {
       "hisse": "GUNDG",
@@ -316,6 +316,13 @@
       "ilk_oran": 13.1,
       "son_oran": 18.53,
       "artis": 5.43
+    },
+    {
+      "hisse": "KRTEK",
+      "ortak": "TÜRKAY AYDIN",
+      "ilk_oran": 5.34,
+      "son_oran": 10.69,
+      "artis": 5.35
     },
     {
       "hisse": "TMPOL",
@@ -330,13 +337,6 @@
       "ilk_oran": 5.93,
       "son_oran": 11.1,
       "artis": 5.17
-    },
-    {
-      "hisse": "SEKFK",
-      "ortak": "ŞEKERBANK TÜRK ANONİM.ŞİRKET PERS.SOS.SİG.SAN.VAKF",
-      "ilk_oran": 7.71,
-      "son_oran": 12.8,
-      "artis": 5.09
     },
     {
       "hisse": "AHSGY",
