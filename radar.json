@@ -1,5 +1,5 @@
 {
-  "guncelleme": "2026-08-07 05:30",
+  "guncelleme": "2026-08-08 05:30",
   "baslik": "Son 12 Ayda Pay Artiran Ortaklar",
   "kayitlar": [
     {
@@ -27,8 +27,8 @@
       "hisse": "KRTEK",
       "ortak": "MERAL MOLU",
       "ilk_oran": 8.72,
-      "son_oran": 36.33,
-      "artis": 27.61
+      "son_oran": 35.16,
+      "artis": 26.44
     },
     {
       "hisse": "MEYSU",
@@ -41,8 +41,8 @@
       "hisse": "OZATD",
       "ortak": "TERA PORTFÖY BİRİNCİ SERBEST FON",
       "ilk_oran": 6.03,
-      "son_oran": 27.53,
-      "artis": 21.5
+      "son_oran": 27.75,
+      "artis": 21.72
     },
     {
       "hisse": "DUNYH",
@@ -62,8 +62,8 @@
       "hisse": "PEKGY",
       "ortak": "TERA PORTFÖY BİRİNCİ SERBEST FON",
       "ilk_oran": 10.86,
-      "son_oran": 26.82,
-      "artis": 15.96
+      "son_oran": 27.42,
+      "artis": 16.56
     },
     {
       "hisse": "FENER",
@@ -90,8 +90,8 @@
       "hisse": "CRDFA",
       "ortak": "ATLAS PORTFÖY DÖRDÜNCÜ SERBEST (TL) FON",
       "ilk_oran": 5.7,
-      "son_oran": 19.79,
-      "artis": 14.09
+      "son_oran": 19.6,
+      "artis": 13.9
     },
     {
       "hisse": "MANAS",
@@ -101,13 +101,6 @@
       "artis": 13.71
     },
     {
-      "hisse": "IEYHO",
-      "ortak": "ALNUS YATIRIM MENKUL DEĞERLER A.Ş.",
-      "ilk_oran": 6.47,
-      "son_oran": 19.67,
-      "artis": 13.2
-    },
-    {
       "hisse": "EKIZ",
       "ortak": "MURAT TÜRKAL",
       "ilk_oran": 22.69,
@@ -115,18 +108,25 @@
       "artis": 13.16
     },
     {
-      "hisse": "KOPOL",
-      "ortak": "PARDUS PORTFÖY SANAYİ ŞİRKETLERİ HİSSE SENEDİ SERBEST FON (HİSSE SENEDİ YOĞUN FON)",
-      "ilk_oran": 5.58,
-      "son_oran": 16.82,
-      "artis": 11.24
+      "hisse": "IEYHO",
+      "ortak": "ALNUS YATIRIM MENKUL DEĞERLER A.Ş.",
+      "ilk_oran": 6.47,
+      "son_oran": 19.27,
+      "artis": 12.8
     },
     {
       "hisse": "TRHOL",
       "ortak": "TERA PORTFÖY BİRİNCİ SERBEST FON",
       "ilk_oran": 5.13,
-      "son_oran": 16.09,
-      "artis": 10.96
+      "son_oran": 17.15,
+      "artis": 12.02
+    },
+    {
+      "hisse": "KOPOL",
+      "ortak": "PARDUS PORTFÖY SANAYİ ŞİRKETLERİ HİSSE SENEDİ SERBEST FON (HİSSE SENEDİ YOĞUN FON)",
+      "ilk_oran": 5.58,
+      "son_oran": 16.82,
+      "artis": 11.24
     },
     {
       "hisse": "GLYHO",
@@ -206,13 +206,6 @@
       "artis": 7.76
     },
     {
-      "hisse": "PASEU",
-      "ortak": "PUSULA PORTFÖY PARA PİYASASI (TL) FONU",
-      "ilk_oran": 5.12,
-      "son_oran": 12.48,
-      "artis": 7.36
-    },
-    {
       "hisse": "BLCYT",
       "ortak": "AZİMUT PORTFÖY ADATEPE SERBEST ÖZEL FON",
       "ilk_oran": 5.89,
@@ -230,8 +223,8 @@
       "hisse": "DOFER",
       "ortak": "MERT DOĞAN",
       "ilk_oran": 15.47,
-      "son_oran": 22.61,
-      "artis": 7.14
+      "son_oran": 22.6,
+      "artis": 7.13
     },
     {
       "hisse": "VBTYZ",
@@ -269,6 +262,13 @@
       "artis": 6.73
     },
     {
+      "hisse": "PASEU",
+      "ortak": "PUSULA PORTFÖY PARA PİYASASI (TL) FONU",
+      "ilk_oran": 5.12,
+      "son_oran": 11.83,
+      "artis": 6.71
+    },
+    {
       "hisse": "ISGSY",
       "ortak": "İŞ YATIRIM MENKUL DEĞERLER A.Ş.",
       "ilk_oran": 25.46,
@@ -297,6 +297,13 @@
       "artis": 6.16
     },
     {
+      "hisse": "KTLEV",
+      "ortak": "PUSULA PORTFÖY KUZEY HİSSE SENEDİ SERBEST (TL) FON (HİSSE SENEDİ YOĞUN FON)",
+      "ilk_oran": 9.18,
+      "son_oran": 15.34,
+      "artis": 6.16
+    },
+    {
       "hisse": "FZLGY",
       "ortak": "AZİMUT PORTFÖY 10.0 SERBEST FON",
       "ilk_oran": 5.52,
@@ -304,25 +311,11 @@
       "artis": 6.11
     },
     {
-      "hisse": "KTLEV",
-      "ortak": "PUSULA PORTFÖY KUZEY HİSSE SENEDİ SERBEST (TL) FON (HİSSE SENEDİ YOĞUN FON)",
-      "ilk_oran": 9.18,
-      "son_oran": 14.95,
-      "artis": 5.77
-    },
-    {
       "hisse": "GUNDG",
       "ortak": "PUSULA PORTFÖY DENGE KATILIM SERBEST FON",
       "ilk_oran": 13.1,
       "son_oran": 18.53,
       "artis": 5.43
-    },
-    {
-      "hisse": "KRTEK",
-      "ortak": "TÜRKAY AYDIN",
-      "ilk_oran": 5.34,
-      "son_oran": 10.69,
-      "artis": 5.35
     },
     {
       "hisse": "TMPOL",
@@ -337,6 +330,13 @@
       "ilk_oran": 5.93,
       "son_oran": 11.1,
       "artis": 5.17
+    },
+    {
+      "hisse": "KRTEK",
+      "ortak": "TÜRKAY AYDIN",
+      "ilk_oran": 5.34,
+      "son_oran": 10.35,
+      "artis": 5.01
     },
     {
       "hisse": "AHSGY",
