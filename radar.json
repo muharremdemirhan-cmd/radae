@@ -1,5 +1,5 @@
 {
-  "guncelleme": "2026-08-12 05:30",
+  "guncelleme": "2026-08-13 05:30",
   "baslik": "Son 12 Ayda Pay Artiran Ortaklar",
   "kayitlar": [
     {
@@ -24,13 +24,6 @@
       "artis": 31.54
     },
     {
-      "hisse": "KRTEK",
-      "ortak": "MERAL MOLU",
-      "ilk_oran": 8.72,
-      "son_oran": 31.24,
-      "artis": 22.52
-    },
-    {
       "hisse": "MEYSU",
       "ortak": "GÜLSAN GIDA SANAYİ TİCARET A.Ş.",
       "ilk_oran": 14.37,
@@ -41,8 +34,15 @@
       "hisse": "OZATD",
       "ortak": "TERA PORTFÖY BİRİNCİ SERBEST FON",
       "ilk_oran": 6.03,
-      "son_oran": 28.06,
-      "artis": 22.03
+      "son_oran": 28.14,
+      "artis": 22.11
+    },
+    {
+      "hisse": "KRTEK",
+      "ortak": "MERAL MOLU",
+      "ilk_oran": 8.72,
+      "son_oran": 30.15,
+      "artis": 21.43
     },
     {
       "hisse": "DUNYH",
@@ -80,13 +80,6 @@
       "artis": 14.72
     },
     {
-      "hisse": "PEKGY",
-      "ortak": "TERA PORTFÖY BİRİNCİ SERBEST FON",
-      "ilk_oran": 10.86,
-      "son_oran": 25.4,
-      "artis": 14.54
-    },
-    {
       "hisse": "CRDFA",
       "ortak": "ATLAS PORTFÖY DÖRDÜNCÜ SERBEST (TL) FON",
       "ilk_oran": 5.7,
@@ -108,6 +101,13 @@
       "artis": 13.16
     },
     {
+      "hisse": "PASEU",
+      "ortak": "PUSULA PORTFÖY PARA PİYASASI (TL) FONU",
+      "ilk_oran": 5.12,
+      "son_oran": 18.23,
+      "artis": 13.11
+    },
+    {
       "hisse": "IEYHO",
       "ortak": "ALNUS YATIRIM MENKUL DEĞERLER A.Ş.",
       "ilk_oran": 6.47,
@@ -118,8 +118,8 @@
       "hisse": "TRHOL",
       "ortak": "TERA PORTFÖY BİRİNCİ SERBEST FON",
       "ilk_oran": 5.13,
-      "son_oran": 17.56,
-      "artis": 12.43
+      "son_oran": 17.82,
+      "artis": 12.69
     },
     {
       "hisse": "KOPOL",
@@ -127,6 +127,13 @@
       "ilk_oran": 5.58,
       "son_oran": 16.82,
       "artis": 11.24
+    },
+    {
+      "hisse": "PEKGY",
+      "ortak": "TERA PORTFÖY BİRİNCİ SERBEST FON",
+      "ilk_oran": 10.86,
+      "son_oran": 21.98,
+      "artis": 11.12
     },
     {
       "hisse": "GLYHO",
@@ -148,13 +155,6 @@
       "ilk_oran": 15.99,
       "son_oran": 25.88,
       "artis": 9.89
-    },
-    {
-      "hisse": "PASEU",
-      "ortak": "PUSULA PORTFÖY PARA PİYASASI (TL) FONU",
-      "ilk_oran": 5.12,
-      "son_oran": 14.82,
-      "artis": 9.7
     },
     {
       "hisse": "IEYHO",
@@ -311,13 +311,6 @@
       "artis": 6.11
     },
     {
-      "hisse": "CVKMD",
-      "ortak": "HÜSEYİN ÇEVİK",
-      "ilk_oran": 74.04,
-      "son_oran": 79.96,
-      "artis": 5.92
-    },
-    {
       "hisse": "GUNDG",
       "ortak": "PUSULA PORTFÖY DENGE KATILIM SERBEST FON",
       "ilk_oran": 13.1,
@@ -330,6 +323,13 @@
       "ilk_oran": 14.34,
       "son_oran": 19.66,
       "artis": 5.32
+    },
+    {
+      "hisse": "CVKMD",
+      "ortak": "HÜSEYİN ÇEVİK",
+      "ilk_oran": 74.04,
+      "son_oran": 79.28,
+      "artis": 5.24
     },
     {
       "hisse": "IZENR",
@@ -349,8 +349,8 @@
       "hisse": "AHSGY",
       "ortak": "RE-PIE PORTFÖY SEKİZİNCİ HİSSE SENEDİ SERBEST (TL) FON (HİSSE SENEDİ YOĞUN FON)",
       "ilk_oran": 4.59,
-      "son_oran": 9.36,
-      "artis": 4.77
+      "son_oran": 9.37,
+      "artis": 4.78
     }
   ]
 }
