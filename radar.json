@@ -1,5 +1,5 @@
 {
-  "guncelleme": "2026-08-19 05:30",
+  "guncelleme": "2026-08-20 05:30",
   "baslik": "Son 12 Ayda Pay Artiran Ortaklar",
   "kayitlar": [
     {
@@ -31,18 +31,18 @@
       "artis": 22.41
     },
     {
-      "hisse": "OZATD",
-      "ortak": "TERA PORTFÖY BİRİNCİ SERBEST FON",
-      "ilk_oran": 6.03,
-      "son_oran": 27.71,
-      "artis": 21.68
-    },
-    {
       "hisse": "DUNYH",
       "ortak": "BULLS YATIRIM HOLDİNG ANONİM ŞİRKETİ",
       "ilk_oran": 0.66,
       "son_oran": 20.45,
       "artis": 19.79
+    },
+    {
+      "hisse": "OZATD",
+      "ortak": "TERA PORTFÖY BİRİNCİ SERBEST FON",
+      "ilk_oran": 6.03,
+      "son_oran": 25.65,
+      "artis": 19.62
     },
     {
       "hisse": "GATEG",
@@ -62,8 +62,8 @@
       "hisse": "KTLEV",
       "ortak": "PUSULA PORTFÖY ÜÇÜNCÜ HİSSE SENEDİ SERBEST FON (HİSSE SENEDİ YOĞUN FON)",
       "ilk_oran": 8.5,
-      "son_oran": 23.67,
-      "artis": 15.17
+      "son_oran": 23.71,
+      "artis": 15.21
     },
     {
       "hisse": "BAYRK",
@@ -76,15 +76,15 @@
       "hisse": "PEKGY",
       "ortak": "TERA PORTFÖY BİRİNCİ SERBEST FON",
       "ilk_oran": 10.86,
-      "son_oran": 25.58,
-      "artis": 14.72
+      "son_oran": 25.24,
+      "artis": 14.38
     },
     {
       "hisse": "CRDFA",
       "ortak": "ATLAS PORTFÖY DÖRDÜNCÜ SERBEST (TL) FON",
       "ilk_oran": 5.7,
-      "son_oran": 19.65,
-      "artis": 13.95
+      "son_oran": 19.66,
+      "artis": 13.96
     },
     {
       "hisse": "MANAS",
@@ -94,6 +94,13 @@
       "artis": 13.71
     },
     {
+      "hisse": "TRHOL",
+      "ortak": "TERA PORTFÖY BİRİNCİ SERBEST FON",
+      "ilk_oran": 5.13,
+      "son_oran": 18.3,
+      "artis": 13.17
+    },
+    {
       "hisse": "EKIZ",
       "ortak": "MURAT TÜRKAL",
       "ilk_oran": 22.69,
@@ -101,18 +108,18 @@
       "artis": 13.16
     },
     {
-      "hisse": "TRHOL",
-      "ortak": "TERA PORTFÖY BİRİNCİ SERBEST FON",
-      "ilk_oran": 5.13,
-      "son_oran": 18.24,
-      "artis": 13.11
-    },
-    {
       "hisse": "IEYHO",
       "ortak": "ALNUS YATIRIM MENKUL DEĞERLER A.Ş.",
       "ilk_oran": 6.47,
       "son_oran": 19.27,
       "artis": 12.8
+    },
+    {
+      "hisse": "PASEU",
+      "ortak": "PUSULA PORTFÖY ÜÇÜNCÜ HİSSE SENEDİ SERBEST FON (HİSSE SENEDİ YOĞUN FON)",
+      "ilk_oran": 5.01,
+      "son_oran": 16.54,
+      "artis": 11.53
     },
     {
       "hisse": "KOPOL",
@@ -136,18 +143,18 @@
       "artis": 10.5
     },
     {
+      "hisse": "IZFAS",
+      "ortak": "PUSULA PORTFÖY DENGE KATILIM SERBEST FON",
+      "ilk_oran": 17.57,
+      "son_oran": 27.79,
+      "artis": 10.22
+    },
+    {
       "hisse": "DOFER",
       "ortak": "YAĞMUR DOĞAN",
       "ilk_oran": 15.99,
       "son_oran": 25.88,
       "artis": 9.89
-    },
-    {
-      "hisse": "KRTEK",
-      "ortak": "MERAL MOLU",
-      "ilk_oran": 8.72,
-      "son_oran": 18.51,
-      "artis": 9.79
     },
     {
       "hisse": "IEYHO",
@@ -169,6 +176,13 @@
       "ilk_oran": 50.5,
       "son_oran": 60.08,
       "artis": 9.58
+    },
+    {
+      "hisse": "KRTEK",
+      "ortak": "MERAL MOLU",
+      "ilk_oran": 8.72,
+      "son_oran": 18.15,
+      "artis": 9.43
     },
     {
       "hisse": "BURVA",
@@ -337,20 +351,6 @@
       "ilk_oran": 14.34,
       "son_oran": 19.66,
       "artis": 5.32
-    },
-    {
-      "hisse": "IZENR",
-      "ortak": "PARDUS PORTFÖY DOKUZUNCU HİSSE SENEDİ SERBEST (TL) FON (HİSSE SENEDİ YOĞUN FON)",
-      "ilk_oran": 5.93,
-      "son_oran": 11.1,
-      "artis": 5.17
-    },
-    {
-      "hisse": "AHSGY",
-      "ortak": "RE-PIE PORTFÖY SEKİZİNCİ HİSSE SENEDİ SERBEST (TL) FON (HİSSE SENEDİ YOĞUN FON)",
-      "ilk_oran": 4.59,
-      "son_oran": 9.41,
-      "artis": 4.82
     }
   ]
 }
