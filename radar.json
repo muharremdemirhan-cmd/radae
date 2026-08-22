@@ -1,5 +1,5 @@
 {
-  "guncelleme": "2026-08-21 05:30",
+  "guncelleme": "2026-08-22 05:30",
   "baslik": "Son 12 Ayda Pay Artiran Ortaklar",
   "kayitlar": [
     {
@@ -62,8 +62,22 @@
       "hisse": "OZATD",
       "ortak": "TERA PORTFÖY BİRİNCİ SERBEST FON",
       "ilk_oran": 6.03,
-      "son_oran": 23.63,
-      "artis": 17.6
+      "son_oran": 23.71,
+      "artis": 17.68
+    },
+    {
+      "hisse": "PEKGY",
+      "ortak": "TERA PORTFÖY BİRİNCİ SERBEST FON",
+      "ilk_oran": 10.86,
+      "son_oran": 27.51,
+      "artis": 16.65
+    },
+    {
+      "hisse": "KTLEV",
+      "ortak": "PUSULA PORTFÖY ÜÇÜNCÜ HİSSE SENEDİ SERBEST FON (HİSSE SENEDİ YOĞUN FON)",
+      "ilk_oran": 8.5,
+      "son_oran": 24.56,
+      "artis": 16.06
     },
     {
       "hisse": "FENER",
@@ -73,13 +87,6 @@
       "artis": 15.78
     },
     {
-      "hisse": "KTLEV",
-      "ortak": "PUSULA PORTFÖY ÜÇÜNCÜ HİSSE SENEDİ SERBEST FON (HİSSE SENEDİ YOĞUN FON)",
-      "ilk_oran": 8.5,
-      "son_oran": 24.16,
-      "artis": 15.66
-    },
-    {
       "hisse": "BAYRK",
       "ortak": "KURT TABAN AYAKKABI SANAYİ TİCARET ANONİM ŞİRKETİ",
       "ilk_oran": 9.05,
@@ -87,18 +94,11 @@
       "artis": 15.05
     },
     {
-      "hisse": "PEKGY",
-      "ortak": "TERA PORTFÖY BİRİNCİ SERBEST FON",
-      "ilk_oran": 10.86,
-      "son_oran": 25.54,
-      "artis": 14.68
-    },
-    {
       "hisse": "CRDFA",
       "ortak": "ATLAS PORTFÖY DÖRDÜNCÜ SERBEST (TL) FON",
       "ilk_oran": 5.7,
-      "son_oran": 19.72,
-      "artis": 14.02
+      "son_oran": 19.74,
+      "artis": 14.04
     },
     {
       "hisse": "MANAS",
@@ -111,8 +111,8 @@
       "hisse": "TRHOL",
       "ortak": "TERA PORTFÖY BİRİNCİ SERBEST FON",
       "ilk_oran": 5.13,
-      "son_oran": 18.39,
-      "artis": 13.26
+      "son_oran": 18.31,
+      "artis": 13.18
     },
     {
       "hisse": "EKIZ",
@@ -167,8 +167,8 @@
       "hisse": "IZFAS",
       "ortak": "PUSULA PORTFÖY DENGE KATILIM SERBEST FON",
       "ilk_oran": 17.57,
-      "son_oran": 27.68,
-      "artis": 10.11
+      "son_oran": 27.64,
+      "artis": 10.07
     },
     {
       "hisse": "DOFER",
@@ -321,8 +321,8 @@
       "hisse": "PASEU",
       "ortak": "PUSULA PORTFÖY PARA PİYASASI (TL) FONU",
       "ilk_oran": 5.12,
-      "son_oran": 11.83,
-      "artis": 6.71
+      "son_oran": 11.65,
+      "artis": 6.53
     },
     {
       "hisse": "ISGSY",
