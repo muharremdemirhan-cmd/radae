@@ -1,5 +1,5 @@
 {
-  "guncelleme": "2026-08-26 06:30",
+  "guncelleme": "2026-08-27 06:30",
   "baslik": "Son 12 Ayda Pay Artiran Ortaklar",
   "kayitlar": [
     {
@@ -31,18 +31,18 @@
       "artis": 22.41
     },
     {
+      "hisse": "PEKGY",
+      "ortak": "TERA PORTFÖY BİRİNCİ SERBEST FON",
+      "ilk_oran": 10.86,
+      "son_oran": 30.69,
+      "artis": 19.83
+    },
+    {
       "hisse": "DUNYH",
       "ortak": "BULLS YATIRIM HOLDİNG ANONİM ŞİRKETİ",
       "ilk_oran": 0.66,
       "son_oran": 20.45,
       "artis": 19.79
-    },
-    {
-      "hisse": "PEKGY",
-      "ortak": "TERA PORTFÖY BİRİNCİ SERBEST FON",
-      "ilk_oran": 10.86,
-      "son_oran": 29.79,
-      "artis": 18.93
     },
     {
       "hisse": "GATEG",
@@ -52,18 +52,18 @@
       "artis": 18.53
     },
     {
-      "hisse": "OZATD",
-      "ortak": "TERA PORTFÖY BİRİNCİ SERBEST FON",
-      "ilk_oran": 6.03,
-      "son_oran": 23.95,
-      "artis": 17.92
-    },
-    {
       "hisse": "KTLEV",
       "ortak": "PUSULA PORTFÖY ÜÇÜNCÜ HİSSE SENEDİ SERBEST FON (HİSSE SENEDİ YOĞUN FON)",
       "ilk_oran": 8.5,
-      "son_oran": 24.71,
-      "artis": 16.21
+      "son_oran": 25.17,
+      "artis": 16.67
+    },
+    {
+      "hisse": "OZATD",
+      "ortak": "TERA PORTFÖY BİRİNCİ SERBEST FON",
+      "ilk_oran": 6.03,
+      "son_oran": 22.32,
+      "artis": 16.29
     },
     {
       "hisse": "FENER",
@@ -76,8 +76,8 @@
       "hisse": "TRHOL",
       "ortak": "TERA PORTFÖY BİRİNCİ SERBEST FON",
       "ilk_oran": 5.13,
-      "son_oran": 20.49,
-      "artis": 15.36
+      "son_oran": 20.51,
+      "artis": 15.38
     },
     {
       "hisse": "BAYRK",
@@ -146,8 +146,8 @@
       "hisse": "IZFAS",
       "ortak": "PUSULA PORTFÖY DENGE KATILIM SERBEST FON",
       "ilk_oran": 17.57,
-      "son_oran": 27.53,
-      "artis": 9.96
+      "son_oran": 27.47,
+      "artis": 9.9
     },
     {
       "hisse": "DOFER",
@@ -234,6 +234,13 @@
       "artis": 7.76
     },
     {
+      "hisse": "PASEU",
+      "ortak": "PUSULA PORTFÖY PARA PİYASASI (TL) FONU",
+      "ilk_oran": 5.12,
+      "son_oran": 12.61,
+      "artis": 7.49
+    },
+    {
       "hisse": "EDATA",
       "ortak": "OSMAN ARIKAN NACAR",
       "ilk_oran": 13.86,
@@ -318,13 +325,6 @@
       "artis": 6.22
     },
     {
-      "hisse": "KTLEV",
-      "ortak": "PUSULA PORTFÖY KUZEY HİSSE SENEDİ SERBEST (TL) FON (HİSSE SENEDİ YOĞUN FON)",
-      "ilk_oran": 9.18,
-      "son_oran": 15.36,
-      "artis": 6.18
-    },
-    {
       "hisse": "GMTAS",
       "ortak": "THE PABRAI INVESTMENT FUND IVL.P.",
       "ilk_oran": 5.58,
@@ -339,11 +339,11 @@
       "artis": 6.11
     },
     {
-      "hisse": "PASEU",
-      "ortak": "PUSULA PORTFÖY PARA PİYASASI (TL) FONU",
-      "ilk_oran": 5.12,
-      "son_oran": 11.0,
-      "artis": 5.88
+      "hisse": "KTLEV",
+      "ortak": "PUSULA PORTFÖY KUZEY HİSSE SENEDİ SERBEST (TL) FON (HİSSE SENEDİ YOĞUN FON)",
+      "ilk_oran": 9.18,
+      "son_oran": 15.04,
+      "artis": 5.86
     },
     {
       "hisse": "GUNDG",
