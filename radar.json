@@ -1,5 +1,5 @@
 {
-  "guncelleme": "2026-09-01 06:30",
+  "guncelleme": "2026-09-02 06:30",
   "baslik": "Son 12 Ayda Pay Artiran Ortaklar",
   "kayitlar": [
     {
@@ -34,8 +34,8 @@
       "hisse": "PEKGY",
       "ortak": "TERA PORTFÖY BİRİNCİ SERBEST FON",
       "ilk_oran": 10.86,
-      "son_oran": 30.99,
-      "artis": 20.13
+      "son_oran": 31.51,
+      "artis": 20.65
     },
     {
       "hisse": "DUNYH",
@@ -52,18 +52,18 @@
       "artis": 18.53
     },
     {
-      "hisse": "KTLEV",
-      "ortak": "PUSULA PORTFÖY ÜÇÜNCÜ HİSSE SENEDİ SERBEST FON (HİSSE SENEDİ YOĞUN FON)",
-      "ilk_oran": 8.5,
-      "son_oran": 25.08,
-      "artis": 16.58
-    },
-    {
       "hisse": "TRHOL",
       "ortak": "TERA PORTFÖY BİRİNCİ SERBEST FON",
       "ilk_oran": 5.13,
-      "son_oran": 21.31,
-      "artis": 16.18
+      "son_oran": 21.84,
+      "artis": 16.71
+    },
+    {
+      "hisse": "KTLEV",
+      "ortak": "PUSULA PORTFÖY ÜÇÜNCÜ HİSSE SENEDİ SERBEST FON (HİSSE SENEDİ YOĞUN FON)",
+      "ilk_oran": 8.5,
+      "son_oran": 25.18,
+      "artis": 16.68
     },
     {
       "hisse": "FENER",
@@ -87,18 +87,18 @@
       "artis": 14.09
     },
     {
-      "hisse": "OZATD",
-      "ortak": "TERA PORTFÖY BİRİNCİ SERBEST FON",
-      "ilk_oran": 6.03,
-      "son_oran": 20.02,
-      "artis": 13.99
-    },
-    {
       "hisse": "MANAS",
       "ortak": "AHMET REŞAT GÖRÜR",
       "ilk_oran": 7.54,
       "son_oran": 21.25,
       "artis": 13.71
+    },
+    {
+      "hisse": "OZATD",
+      "ortak": "TERA PORTFÖY BİRİNCİ SERBEST FON",
+      "ilk_oran": 6.03,
+      "son_oran": 19.69,
+      "artis": 13.66
     },
     {
       "hisse": "EKIZ",
@@ -116,10 +116,24 @@
     },
     {
       "hisse": "PASEU",
+      "ortak": "PUSULA PORTFÖY PARA PİYASASI (TL) FONU",
+      "ilk_oran": 5.12,
+      "son_oran": 17.82,
+      "artis": 12.7
+    },
+    {
+      "hisse": "PASEU",
       "ortak": "PUSULA PORTFÖY ÜÇÜNCÜ HİSSE SENEDİ SERBEST FON (HİSSE SENEDİ YOĞUN FON)",
       "ilk_oran": 5.01,
       "son_oran": 16.54,
       "artis": 11.53
+    },
+    {
+      "hisse": "ANELE",
+      "ortak": "TERA PORTFÖY BİRİNCİ SERBEST FON",
+      "ilk_oran": 12.27,
+      "son_oran": 23.75,
+      "artis": 11.48
     },
     {
       "hisse": "KOPOL",
@@ -258,8 +272,8 @@
       "hisse": "TCELL",
       "ortak": "CITIBANK N.A.",
       "ilk_oran": 6.08,
-      "son_oran": 13.26,
-      "artis": 7.18
+      "son_oran": 13.31,
+      "artis": 7.23
     },
     {
       "hisse": "DOFER",
@@ -337,20 +351,6 @@
       "ilk_oran": 13.1,
       "son_oran": 18.53,
       "artis": 5.43
-    },
-    {
-      "hisse": "TMPOL",
-      "ortak": "HEDEF PORTFÖY GÜNEY HİSSE SENEDİ SERBEST FON (HİSSE SENEDİ YOĞUN FON)",
-      "ilk_oran": 14.34,
-      "son_oran": 19.66,
-      "artis": 5.32
-    },
-    {
-      "hisse": "IZENR",
-      "ortak": "PARDUS PORTFÖY DOKUZUNCU HİSSE SENEDİ SERBEST (TL) FON (HİSSE SENEDİ YOĞUN FON)",
-      "ilk_oran": 5.93,
-      "son_oran": 11.1,
-      "artis": 5.17
     }
   ]
 }
