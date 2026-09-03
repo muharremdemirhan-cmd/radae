@@ -1,5 +1,5 @@
 {
-  "guncelleme": "2026-09-02 06:30",
+  "guncelleme": "2026-09-03 06:30",
   "baslik": "Son 12 Ayda Pay Artiran Ortaklar",
   "kayitlar": [
     {
@@ -31,18 +31,18 @@
       "artis": 22.41
     },
     {
-      "hisse": "PEKGY",
-      "ortak": "TERA PORTFÖY BİRİNCİ SERBEST FON",
-      "ilk_oran": 10.86,
-      "son_oran": 31.51,
-      "artis": 20.65
-    },
-    {
       "hisse": "DUNYH",
       "ortak": "BULLS YATIRIM HOLDİNG ANONİM ŞİRKETİ",
       "ilk_oran": 0.66,
       "son_oran": 20.45,
       "artis": 19.79
+    },
+    {
+      "hisse": "PEKGY",
+      "ortak": "TERA PORTFÖY BİRİNCİ SERBEST FON",
+      "ilk_oran": 10.86,
+      "son_oran": 30.34,
+      "artis": 19.48
     },
     {
       "hisse": "GATEG",
@@ -55,15 +55,15 @@
       "hisse": "TRHOL",
       "ortak": "TERA PORTFÖY BİRİNCİ SERBEST FON",
       "ilk_oran": 5.13,
-      "son_oran": 21.84,
-      "artis": 16.71
+      "son_oran": 21.92,
+      "artis": 16.79
     },
     {
       "hisse": "KTLEV",
       "ortak": "PUSULA PORTFÖY ÜÇÜNCÜ HİSSE SENEDİ SERBEST FON (HİSSE SENEDİ YOĞUN FON)",
       "ilk_oran": 8.5,
-      "son_oran": 25.18,
-      "artis": 16.68
+      "son_oran": 24.68,
+      "artis": 16.18
     },
     {
       "hisse": "FENER",
@@ -94,13 +94,6 @@
       "artis": 13.71
     },
     {
-      "hisse": "OZATD",
-      "ortak": "TERA PORTFÖY BİRİNCİ SERBEST FON",
-      "ilk_oran": 6.03,
-      "son_oran": 19.69,
-      "artis": 13.66
-    },
-    {
       "hisse": "EKIZ",
       "ortak": "MURAT TÜRKAL",
       "ilk_oran": 22.69,
@@ -129,18 +122,25 @@
       "artis": 11.53
     },
     {
-      "hisse": "ANELE",
-      "ortak": "TERA PORTFÖY BİRİNCİ SERBEST FON",
-      "ilk_oran": 12.27,
-      "son_oran": 23.75,
-      "artis": 11.48
-    },
-    {
       "hisse": "KOPOL",
       "ortak": "PARDUS PORTFÖY SANAYİ ŞİRKETLERİ HİSSE SENEDİ SERBEST FON (HİSSE SENEDİ YOĞUN FON)",
       "ilk_oran": 5.58,
       "son_oran": 16.82,
       "artis": 11.24
+    },
+    {
+      "hisse": "ANELE",
+      "ortak": "TERA PORTFÖY BİRİNCİ SERBEST FON",
+      "ilk_oran": 12.27,
+      "son_oran": 23.49,
+      "artis": 11.22
+    },
+    {
+      "hisse": "OZATD",
+      "ortak": "TERA PORTFÖY BİRİNCİ SERBEST FON",
+      "ilk_oran": 6.03,
+      "son_oran": 17.22,
+      "artis": 11.19
     },
     {
       "hisse": "GLYHO",
@@ -155,6 +155,13 @@
       "ilk_oran": 5.52,
       "son_oran": 16.02,
       "artis": 10.5
+    },
+    {
+      "hisse": "PASEU",
+      "ortak": "PUSULA PORTFÖY İKİNCİ PARA PİYASASI (TL) FONU",
+      "ilk_oran": 5.08,
+      "son_oran": 15.37,
+      "artis": 10.29
     },
     {
       "hisse": "DOFER",
@@ -237,8 +244,8 @@
       "hisse": "BLUME",
       "ortak": "ERDAL BULUT",
       "ilk_oran": 15.74,
-      "son_oran": 24.66,
-      "artis": 8.92
+      "son_oran": 24.69,
+      "artis": 8.95
     },
     {
       "hisse": "PARSN",
@@ -267,6 +274,13 @@
       "ilk_oran": 5.89,
       "son_oran": 13.18,
       "artis": 7.29
+    },
+    {
+      "hisse": "BLCYT",
+      "ortak": "BİLİCİ HOLDİNG ANONİM ŞİRKETİ",
+      "ilk_oran": 9.2,
+      "son_oran": 16.48,
+      "artis": 7.28
     },
     {
       "hisse": "TCELL",
@@ -318,6 +332,13 @@
       "artis": 6.5
     },
     {
+      "hisse": "TEHOL",
+      "ortak": "TERA PORTFÖY BİRİNCİ SERBEST FON",
+      "ilk_oran": 33.51,
+      "son_oran": 39.77,
+      "artis": 6.26
+    },
+    {
       "hisse": "SEGMN",
       "ortak": "GMS YATIRIM HOLDİNG ANONİM ŞİRKETİ",
       "ilk_oran": 18.75,
@@ -330,27 +351,6 @@
       "ilk_oran": 6.44,
       "son_oran": 12.66,
       "artis": 6.22
-    },
-    {
-      "hisse": "GMTAS",
-      "ortak": "THE PABRAI INVESTMENT FUND IVL.P.",
-      "ilk_oran": 5.58,
-      "son_oran": 11.74,
-      "artis": 6.16
-    },
-    {
-      "hisse": "FZLGY",
-      "ortak": "AZİMUT PORTFÖY 10.0 SERBEST FON",
-      "ilk_oran": 5.52,
-      "son_oran": 11.63,
-      "artis": 6.11
-    },
-    {
-      "hisse": "GUNDG",
-      "ortak": "PUSULA PORTFÖY DENGE KATILIM SERBEST FON",
-      "ilk_oran": 13.1,
-      "son_oran": 18.53,
-      "artis": 5.43
     }
   ]
 }
