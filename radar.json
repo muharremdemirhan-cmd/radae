@@ -1,5 +1,5 @@
 {
-  "guncelleme": "2026-09-04 06:30",
+  "guncelleme": "2026-09-05 06:30",
   "baslik": "Son 12 Ayda Pay Artiran Ortaklar",
   "kayitlar": [
     {
@@ -34,8 +34,8 @@
       "hisse": "PASEU",
       "ortak": "PUSULA PORTFÖY PARA PİYASASI (TL) FONU",
       "ilk_oran": 5.12,
-      "son_oran": 26.57,
-      "artis": 21.45
+      "son_oran": 26.72,
+      "artis": 21.6
     },
     {
       "hisse": "DUNYH",
@@ -73,13 +73,6 @@
       "artis": 15.05
     },
     {
-      "hisse": "KTLEV",
-      "ortak": "PUSULA PORTFÖY ÜÇÜNCÜ HİSSE SENEDİ SERBEST FON (HİSSE SENEDİ YOĞUN FON)",
-      "ilk_oran": 8.5,
-      "son_oran": 23.48,
-      "artis": 14.98
-    },
-    {
       "hisse": "TRHOL",
       "ortak": "TERA PORTFÖY BİRİNCİ SERBEST FON",
       "ilk_oran": 5.13,
@@ -113,6 +106,13 @@
       "ilk_oran": 6.47,
       "son_oran": 19.27,
       "artis": 12.8
+    },
+    {
+      "hisse": "KTLEV",
+      "ortak": "PUSULA PORTFÖY ÜÇÜNCÜ HİSSE SENEDİ SERBEST FON (HİSSE SENEDİ YOĞUN FON)",
+      "ilk_oran": 8.5,
+      "son_oran": 20.95,
+      "artis": 12.45
     },
     {
       "hisse": "PASEU",
@@ -213,13 +213,6 @@
       "artis": 9.15
     },
     {
-      "hisse": "OZATD",
-      "ortak": "TERA PORTFÖY BİRİNCİ SERBEST FON",
-      "ilk_oran": 6.03,
-      "son_oran": 15.13,
-      "artis": 9.1
-    },
-    {
       "hisse": "IZFAS",
       "ortak": "PUSULA PORTFÖY KUZEY HİSSE SENEDİ SERBEST (TL) FON (HİSSE SENEDİ YOĞUN FON)",
       "ilk_oran": 8.47,
@@ -230,8 +223,15 @@
       "hisse": "BLUME",
       "ortak": "ERDAL BULUT",
       "ilk_oran": 15.74,
-      "son_oran": 24.79,
-      "artis": 9.05
+      "son_oran": 24.81,
+      "artis": 9.07
+    },
+    {
+      "hisse": "OZATD",
+      "ortak": "TERA PORTFÖY BİRİNCİ SERBEST FON",
+      "ilk_oran": 6.03,
+      "son_oran": 15.07,
+      "artis": 9.04
     },
     {
       "hisse": "UNLU",
@@ -248,6 +248,13 @@
       "artis": 7.76
     },
     {
+      "hisse": "TCELL",
+      "ortak": "CITIBANK N.A.",
+      "ilk_oran": 6.08,
+      "son_oran": 13.59,
+      "artis": 7.51
+    },
+    {
       "hisse": "EDATA",
       "ortak": "OSMAN ARIKAN NACAR",
       "ilk_oran": 13.86,
@@ -262,25 +269,11 @@
       "artis": 7.42
     },
     {
-      "hisse": "TCELL",
-      "ortak": "CITIBANK N.A.",
-      "ilk_oran": 6.08,
-      "son_oran": 13.48,
-      "artis": 7.4
-    },
-    {
       "hisse": "BLCYT",
       "ortak": "AZİMUT PORTFÖY ADATEPE SERBEST ÖZEL FON",
       "ilk_oran": 5.89,
       "son_oran": 13.18,
       "artis": 7.29
-    },
-    {
-      "hisse": "BLCYT",
-      "ortak": "BİLİCİ HOLDİNG ANONİM ŞİRKETİ",
-      "ilk_oran": 9.2,
-      "son_oran": 16.48,
-      "artis": 7.28
     },
     {
       "hisse": "DOFER",
@@ -351,6 +344,13 @@
       "ilk_oran": 5.58,
       "son_oran": 11.74,
       "artis": 6.16
+    },
+    {
+      "hisse": "FZLGY",
+      "ortak": "AZİMUT PORTFÖY 10.0 SERBEST FON",
+      "ilk_oran": 5.52,
+      "son_oran": 11.63,
+      "artis": 6.11
     }
   ]
 }
