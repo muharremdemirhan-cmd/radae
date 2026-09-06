@@ -1,5 +1,5 @@
 {
-  "guncelleme": "2026-09-05 06:30",
+  "guncelleme": "2026-09-06 06:30",
   "baslik": "Son 12 Ayda Pay Artiran Ortaklar",
   "kayitlar": [
     {
@@ -29,13 +29,6 @@
       "ilk_oran": 14.37,
       "son_oran": 36.78,
       "artis": 22.41
-    },
-    {
-      "hisse": "PASEU",
-      "ortak": "PUSULA PORTFÖY PARA PİYASASI (TL) FONU",
-      "ilk_oran": 5.12,
-      "son_oran": 26.72,
-      "artis": 21.6
     },
     {
       "hisse": "DUNYH",
@@ -108,11 +101,11 @@
       "artis": 12.8
     },
     {
-      "hisse": "KTLEV",
-      "ortak": "PUSULA PORTFÖY ÜÇÜNCÜ HİSSE SENEDİ SERBEST FON (HİSSE SENEDİ YOĞUN FON)",
-      "ilk_oran": 8.5,
-      "son_oran": 20.95,
-      "artis": 12.45
+      "hisse": "PASEU",
+      "ortak": "PUSULA PORTFÖY PARA PİYASASI (TL) FONU",
+      "ilk_oran": 5.12,
+      "son_oran": 17.11,
+      "artis": 11.99
     },
     {
       "hisse": "PASEU",
@@ -148,6 +141,13 @@
       "ilk_oran": 5.08,
       "son_oran": 15.37,
       "artis": 10.29
+    },
+    {
+      "hisse": "KTLEV",
+      "ortak": "PUSULA PORTFÖY ÜÇÜNCÜ HİSSE SENEDİ SERBEST FON (HİSSE SENEDİ YOĞUN FON)",
+      "ilk_oran": 8.5,
+      "son_oran": 18.76,
+      "artis": 10.26
     },
     {
       "hisse": "DOFER",
@@ -206,6 +206,13 @@
       "artis": 9.39
     },
     {
+      "hisse": "BLUME",
+      "ortak": "ERDAL BULUT",
+      "ilk_oran": 15.74,
+      "son_oran": 24.96,
+      "artis": 9.22
+    },
+    {
       "hisse": "SKYLP",
       "ortak": "PUSULA PORTFÖY DOĞU HİSSE SENEDİ SERBEST (TL) FON (HİSSE SENEDİ YOĞUN FON)",
       "ilk_oran": 5.01,
@@ -220,18 +227,11 @@
       "artis": 9.1
     },
     {
-      "hisse": "BLUME",
-      "ortak": "ERDAL BULUT",
-      "ilk_oran": 15.74,
-      "son_oran": 24.81,
-      "artis": 9.07
-    },
-    {
       "hisse": "OZATD",
       "ortak": "TERA PORTFÖY BİRİNCİ SERBEST FON",
       "ilk_oran": 6.03,
-      "son_oran": 15.07,
-      "artis": 9.04
+      "son_oran": 15.05,
+      "artis": 9.02
     },
     {
       "hisse": "UNLU",
@@ -251,8 +251,8 @@
       "hisse": "TCELL",
       "ortak": "CITIBANK N.A.",
       "ilk_oran": 6.08,
-      "son_oran": 13.59,
-      "artis": 7.51
+      "son_oran": 13.69,
+      "artis": 7.61
     },
     {
       "hisse": "EDATA",
