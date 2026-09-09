@@ -1,5 +1,5 @@
 {
-  "guncelleme": "2026-09-08 06:30",
+  "guncelleme": "2026-09-09 06:30",
   "baslik": "Son 12 Ayda Pay Artiran Ortaklar",
   "kayitlar": [
     {
@@ -101,20 +101,6 @@
       "artis": 12.8
     },
     {
-      "hisse": "PASEU",
-      "ortak": "PUSULA PORTFÖY PARA PİYASASI (TL) FONU",
-      "ilk_oran": 5.12,
-      "son_oran": 17.11,
-      "artis": 11.99
-    },
-    {
-      "hisse": "PASEU",
-      "ortak": "PUSULA PORTFÖY ÜÇÜNCÜ HİSSE SENEDİ SERBEST FON (HİSSE SENEDİ YOĞUN FON)",
-      "ilk_oran": 5.01,
-      "son_oran": 16.54,
-      "artis": 11.53
-    },
-    {
       "hisse": "KOPOL",
       "ortak": "PARDUS PORTFÖY SANAYİ ŞİRKETLERİ HİSSE SENEDİ SERBEST FON (HİSSE SENEDİ YOĞUN FON)",
       "ilk_oran": 5.58,
@@ -134,20 +120,6 @@
       "ilk_oran": 5.52,
       "son_oran": 16.02,
       "artis": 10.5
-    },
-    {
-      "hisse": "PASEU",
-      "ortak": "PUSULA PORTFÖY İKİNCİ PARA PİYASASI (TL) FONU",
-      "ilk_oran": 5.08,
-      "son_oran": 15.37,
-      "artis": 10.29
-    },
-    {
-      "hisse": "KTLEV",
-      "ortak": "PUSULA PORTFÖY ÜÇÜNCÜ HİSSE SENEDİ SERBEST FON (HİSSE SENEDİ YOĞUN FON)",
-      "ilk_oran": 8.5,
-      "son_oran": 18.76,
-      "artis": 10.26
     },
     {
       "hisse": "DOFER",
@@ -209,8 +181,8 @@
       "hisse": "BLUME",
       "ortak": "ERDAL BULUT",
       "ilk_oran": 15.74,
-      "son_oran": 24.96,
-      "artis": 9.22
+      "son_oran": 24.98,
+      "artis": 9.24
     },
     {
       "hisse": "SKYLP",
@@ -230,8 +202,8 @@
       "hisse": "OZATD",
       "ortak": "TERA PORTFÖY BİRİNCİ SERBEST FON",
       "ilk_oran": 6.03,
-      "son_oran": 15.05,
-      "artis": 9.02
+      "son_oran": 15.0,
+      "artis": 8.97
     },
     {
       "hisse": "UNLU",
@@ -253,6 +225,13 @@
       "ilk_oran": 6.08,
       "son_oran": 13.69,
       "artis": 7.61
+    },
+    {
+      "hisse": "KTLEV",
+      "ortak": "PUSULA PORTFÖY ÜÇÜNCÜ HİSSE SENEDİ SERBEST FON (HİSSE SENEDİ YOĞUN FON)",
+      "ilk_oran": 8.5,
+      "son_oran": 15.99,
+      "artis": 7.49
     },
     {
       "hisse": "EDATA",
@@ -304,6 +283,13 @@
       "artis": 7.03
     },
     {
+      "hisse": "PASEU",
+      "ortak": "PUSULA PORTFÖY ÜÇÜNCÜ HİSSE SENEDİ SERBEST FON (HİSSE SENEDİ YOĞUN FON)",
+      "ilk_oran": 5.01,
+      "son_oran": 12.04,
+      "artis": 7.03
+    },
+    {
       "hisse": "OZGYO",
       "ortak": "ÖZDERİCİ GAYRİMENKUL YATIRIM ORTAKLIĞI ANONİM ŞİRKETİ",
       "ilk_oran": 8.27,
@@ -351,6 +337,20 @@
       "ilk_oran": 5.52,
       "son_oran": 11.63,
       "artis": 6.11
+    },
+    {
+      "hisse": "GUNDG",
+      "ortak": "PUSULA PORTFÖY DENGE KATILIM SERBEST FON",
+      "ilk_oran": 13.1,
+      "son_oran": 18.61,
+      "artis": 5.51
+    },
+    {
+      "hisse": "TMPOL",
+      "ortak": "HEDEF PORTFÖY GÜNEY HİSSE SENEDİ SERBEST FON (HİSSE SENEDİ YOĞUN FON)",
+      "ilk_oran": 14.34,
+      "son_oran": 19.66,
+      "artis": 5.32
     }
   ]
 }
